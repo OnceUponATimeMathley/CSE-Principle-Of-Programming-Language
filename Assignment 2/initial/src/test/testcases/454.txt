@@ -1,0 +1,5 @@
+
+Function: main
+    Body:
+        a = 1;
+    EndBody.

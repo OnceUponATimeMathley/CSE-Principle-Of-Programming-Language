@@ -1,0 +1,9 @@
+Function: dsa 
+        Parameter: n
+        Body: 
+            For (i = 0, i != 5, i*1) Do ewx=6; EndFor.
+            Do
+                ewx = a + b;
+                writeln(ewx);
+            While(True || False || True || (a > b)) EndDo.
+        EndBody.

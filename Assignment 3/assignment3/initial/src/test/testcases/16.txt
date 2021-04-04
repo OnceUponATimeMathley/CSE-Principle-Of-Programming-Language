@@ -1,0 +1,16 @@
+
+        Var: a, b[5], c;
+        Function: test
+        Body:
+            a = 10;
+            b = {1, 2, 6, 10, 3};
+            c = b[2];
+        EndBody.
+        Function: main
+        Body:
+            test();
+        EndBody.
+        Function: f
+        Body:
+        EndBody.
+        

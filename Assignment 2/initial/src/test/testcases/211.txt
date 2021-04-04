@@ -1,0 +1,13 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            writeln(bd[1] + a - 7);
+            sayhello("to me");
+            If f(9) == 5 Then
+                writeln("hello");
+            EndIf.
+            Return 0;
+        EndBody.
+    

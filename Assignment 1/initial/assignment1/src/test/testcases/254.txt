@@ -1,0 +1,6 @@
+
+        Function: foo 
+        Parameter: n 
+        Body: 
+            For (,,) Do x=6; EndFor.
+        EndBody.

@@ -1,0 +1,22 @@
+
+        Var: x[10], y;
+        Function: main
+        Body:
+            Var: k;
+            k = -x[foo(x[0])];
+            x = f();
+        EndBody.
+        Function: foo
+        Parameter: y
+        Body:
+            Return y;
+        EndBody.
+        Function: f
+        Body:
+            Var: k[10];
+            If k[2] Then
+                Return k;
+            EndIf.
+            Return x;
+        EndBody.
+        

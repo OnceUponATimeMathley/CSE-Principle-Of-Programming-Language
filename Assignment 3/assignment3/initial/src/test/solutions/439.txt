@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Assign(ArrayCell(Id(flags),[IntLiteral(0),IntLiteral(0)]),BinaryOp(||,BinaryOp(=/=,FloatLiteral(9.0),CallExpr(Id(t),[])),ArrayCell(CallExpr(Id(f),[BinaryOp(*,Id(a),Id(b)),Id(a)]),[IntLiteral(1),IntLiteral(2)])))

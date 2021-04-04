@@ -1,0 +1,14 @@
+
+        Var: a, b[2][4][2];
+        Function: main
+        Body:
+            Var: temp;
+           printStrLn(a);
+           test(temp);
+        EndBody.
+        Function: test
+        Parameter: p
+        Body:
+            printStr(read());
+        EndBody.
+        

@@ -1,0 +1,14 @@
+
+        Function: main
+        Parameter: a[10], b
+        Body:
+            Var: i = 0;
+            While x > 0 Do
+                If i == 0 Then
+                    Var: k = 0.;
+                    main(i);
+                EndIf.
+            EndWhile.
+
+        EndBody.
+        

@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+		** invalid local variable name **
+		Var: a,b,1c;
+		EndBody.
+		

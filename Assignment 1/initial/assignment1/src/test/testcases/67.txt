@@ -1,0 +1,4 @@
+
+		** index is Octal,hexa number **
+		Var: arr[0o6][0XAF];
+		

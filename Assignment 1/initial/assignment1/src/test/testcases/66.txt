@@ -1,0 +1,16 @@
+
+		Function: main
+		Body:
+			** test type conversion functions **
+			** just consider syntax **
+			a = int_of_foat(100.e10);
+			a = int_of_string(read());
+			If bool_of_string("True") Then
+				a = int_of_string();
+				a = string_of_int(100);
+				a = float_of_string("string");
+				a = string_of_float(1e);
+				a = string_of_bool(True);
+			EndIf.
+		EndBody.
+		

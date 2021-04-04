@@ -1,0 +1,16 @@
+
+        Var: x[10];
+        Function: main
+        Parameter: flag
+        Body:
+            Var: s, x, y, t;
+            s = read();
+            x = length(s) * 2;
+            t = length(x);
+        EndBody.
+        Function: length
+        Parameter: s
+        Body:
+            Return 100;
+        EndBody.
+        

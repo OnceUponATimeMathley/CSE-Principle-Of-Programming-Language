@@ -1,0 +1,18 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            If a+3 == 7 Then
+                tree = tree + 3;
+                wood = cutdown(tree, 4);
+                If weight(wood) < 8 Then
+                    Return wood;
+                Else
+                    grind(wood, 8);
+                    Return wood;
+                EndIf.
+            EndIf.
+            Return 0;
+        EndBody.
+        

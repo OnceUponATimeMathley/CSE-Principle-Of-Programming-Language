@@ -1,0 +1,10 @@
+
+        Function: testttt
+        Body:
+            For(iter = 0, iter < max_iter, 1) Do
+                If do_some_thing() == end Then
+                    Return;
+                EndIf.
+                Continue; 
+            EndFor.
+        EndBody.

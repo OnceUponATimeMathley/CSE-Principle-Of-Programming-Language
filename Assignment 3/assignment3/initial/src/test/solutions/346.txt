@@ -1,0 +1,1 @@
+Program([VarDecl(Id(b),BooleanLiteral(false)),VarDecl(Id(arr),[8],ArrayLiteral(IntLiteral(120),IntLiteral(291))),FuncDecl(Id(test)[],([][Dowhile([],[While(BooleanLiteral(true),[],[CallStmt(Id(lock),[]),CallStmt(Id(send),[BinaryOp(+,Id(i),IntLiteral(1))]),CallStmt(Id(unlock),[])])],BooleanLiteral(true))]))])

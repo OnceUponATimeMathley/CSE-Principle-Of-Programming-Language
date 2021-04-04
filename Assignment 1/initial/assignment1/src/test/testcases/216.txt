@@ -1,0 +1,8 @@
+
+        Function: foo 
+        Parameter: n 
+        Body: 
+            froo(2 + x, 4. \. rt); 
+            goo ();
+        EndBody.
+        

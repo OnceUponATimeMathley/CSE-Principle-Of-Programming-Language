@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][If(BooleanLiteral(true),[],[])Else([],[])]))])

@@ -1,0 +1,98 @@
+
+		Function: main
+		Body:
+			**Bai toan doi tien**
+
+			Var: n,i,d = 0;
+			n = int_of_string(read());
+			print("Can ");
+			While n > 500 Do
+				d = d + 1;
+				n = n - 500;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 500k,");
+				d = 0;
+			EndIf.
+
+			While n > 200 Do
+				d = d + 1;
+				n = n - 200;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 200k,");
+				d = 0;
+			EndIf.
+
+			While n > 100 Do
+				d = d + 1;
+				n = n - 100;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 100k,");
+				d = 0;
+			EndIf.
+
+			While n > 50 Do
+				d = d + 1;
+				n = n - 50;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 50k,");
+				d = 0;
+			EndIf.
+
+			While n > 20 Do
+				d = d + 1;
+				n = n - 20;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 20k,");
+				d = 0;
+			EndIf.
+
+			While n > 10 Do
+				d = d + 1;
+				n = n - 10;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 10k,");
+				d = 0;
+			EndIf.
+
+			While n > 5 Do
+				d = d + 1;
+				n = n - 5;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 5k,");
+				d = 0;
+			EndIf.
+
+			While n > 2 Do
+				d = d + 1;
+				n = n - 2;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				print(" to 2k,");
+				d = 0;
+			EndIf.
+
+			While n > 1 Do
+				d = d + 1;
+				n = n - 1;
+			EndWhile.
+			If d > 0 Then 
+				print(d);
+				printLn(" to 1k.");
+			EndIf.
+		EndBody.
+		

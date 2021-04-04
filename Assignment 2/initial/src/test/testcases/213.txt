@@ -1,0 +1,17 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: a, b[5];
+            a = 5;
+            b[0] = 10;
+            For(i = 1, i < 5, i+1) Do
+                b[i] = b[i-1] + a;
+                If b[i] > 20 Then
+                    Break;
+                EndIf.
+            EndFor.
+
+        EndBody.
+        

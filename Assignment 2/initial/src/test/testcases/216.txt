@@ -1,0 +1,14 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            **Code Pro**
+            x = x + 3;
+            **End Code Pro**
+
+            If x-2 == 5 Then
+                Return 0;
+            EndIf.
+        EndBody.
+        

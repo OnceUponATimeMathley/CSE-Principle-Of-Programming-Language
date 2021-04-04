@@ -1,0 +1,8 @@
+
+        Var: x[10];
+        Function: main
+        Body:
+            Var: a[10], t, z;
+            a[t] = t +. 2.;
+        EndBody.
+        

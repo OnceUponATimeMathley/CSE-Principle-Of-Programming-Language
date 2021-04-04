@@ -1,0 +1,24 @@
+
+        Var: a, b[4][12], c;
+        Function: func
+        Body:
+            b[3][0] = 123;
+            Return b;
+        EndBody.
+        Function: test
+        Body:
+            func()[2][1] = 14;
+        EndBody.
+        Function: main
+        Body:
+            func()[3][1] = 0;
+            b[0][0] = c;
+            test();
+            func()[c][2 + 1 * 1] = b[0][c];
+            If False Then
+                While True Do
+                EndWhile.
+                Break;
+            EndIf.
+        EndBody.
+        

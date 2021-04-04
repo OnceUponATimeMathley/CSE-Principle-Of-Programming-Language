@@ -1,0 +1,16 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            For(x = a[9], f(x)[3], x) Do
+                x = x * a[2] - f(a[2])[1];
+            EndFor.
+        EndBody.
+        Function: f
+        Parameter: k
+        Body:
+            b[1] = "dasd";
+            Return a;
+        EndBody.
+        

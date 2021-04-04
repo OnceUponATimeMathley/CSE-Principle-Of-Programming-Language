@@ -1,0 +1,34 @@
+
+		Function: myEmotion
+		Body:
+			goodMorning();
+
+			str = read();
+			doSomething(str);
+
+			n = randInt();
+			If n % 2 == 0 Then
+				angry();
+			ElseIf n > 10 Then
+				happy();
+			Else
+				normal();
+			EndIf.
+		EndBody.
+
+		Function: goodMorning
+		Body:
+			**do something**
+		EndBody.
+
+		Function: doSomething
+		Parameter: str
+		Body:
+			**do something**
+		EndBody.
+
+		Function: randInt
+		Body:
+			**do something**
+		EndBody.
+		

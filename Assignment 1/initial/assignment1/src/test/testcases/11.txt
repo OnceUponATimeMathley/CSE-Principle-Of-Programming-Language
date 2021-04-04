@@ -1,0 +1,10 @@
+
+		Var: x = 0o144; 
+		Function: foo 
+		Parameter: abc = 3
+		Body: 
+			For (x = 1, x>1, 2) Do
+				print(x); 
+			EndFor. 
+		EndBody.
+		

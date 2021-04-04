@@ -1,0 +1,9 @@
+
+        Function: mmmmmmm
+        Body:
+            For(i = 0, i < len(row), 1) Do
+                For(j = 0, i < len(col), 1) Do
+                    result[i][j] = row[i] * col[j];
+                EndFor.
+            EndFor.
+        EndBody.

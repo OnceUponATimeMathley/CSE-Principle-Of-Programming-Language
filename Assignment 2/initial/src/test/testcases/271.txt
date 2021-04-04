@@ -1,0 +1,6 @@
+Function: bar 
+        Parameter: n
+        Body: 
+            a= (a==b)!= c ;
+            x= (x =/= y) <. z;
+        EndBody.

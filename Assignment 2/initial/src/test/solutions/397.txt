@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(testttt)[],([][For(Id(iter),IntLiteral(0),BinaryOp(<,Id(iter),Id(max_iter)),IntLiteral(1),[],[If(BinaryOp(==,CallExpr(Id(do_some_thing),[]),Id(end)),[],[Return()])Else([],[]),Continue()])]))])

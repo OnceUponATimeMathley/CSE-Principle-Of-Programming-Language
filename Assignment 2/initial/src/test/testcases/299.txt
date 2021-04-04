@@ -1,0 +1,35 @@
+
+        Function: ff 
+        Body: 
+            While n == 0 Do
+                While n == 1 Do
+                    While n == 1 Do
+                        While n == 1 Do
+                            While n == 1 Do
+                                While n == 1 Do
+                                    While n == 1 Do
+                                        While n == 0 Do
+                                            While n == 1 Do
+                                                While n == 1 Do
+                                                    While n == 1 Do
+                                                        While n == 1 Do
+                                                            While n == 1 Do
+                                                                While n == 1 Do
+                                                                    Var: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=12;
+                                                                    Var: yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy=34;
+                                                                EndWhile.                
+                                                            EndWhile.                
+                                                        EndWhile.
+                                                    EndWhile.
+                                                EndWhile.
+                                            EndWhile.
+                                        EndWhile.
+                                    EndWhile.                
+                                EndWhile.                
+                            EndWhile.
+                        EndWhile.
+                    EndWhile.
+                EndWhile.
+            EndWhile.
+        EndBody.
+        

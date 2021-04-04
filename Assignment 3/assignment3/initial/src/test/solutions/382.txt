@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(is_even)[VarDecl(Id(x))],([][If(BinaryOp(==,BinaryOp(&&,Id(x),IntLiteral(1)),IntLiteral(0)),[],[Return(BooleanLiteral(true))])Else([],[]),Return(BooleanLiteral(false))]))])

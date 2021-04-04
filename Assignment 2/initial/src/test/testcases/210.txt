@@ -1,0 +1,8 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            array[0] = 4;
+            Return 0;
+        EndBody.

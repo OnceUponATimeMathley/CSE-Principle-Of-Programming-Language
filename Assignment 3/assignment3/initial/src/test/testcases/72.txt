@@ -1,0 +1,20 @@
+
+		Var: x = 10, t = 100;
+		Function: main
+		Body:
+			Var: x,y;
+			x = int_of_string(read());
+			y = int_of_string(read());
+			Return pow(x,y);
+		EndBody.
+
+		Function: pow
+		Parameter: x,y
+		Body:
+			Var: t = 1;
+			For (i=0,i<y,i+1) Do
+				t = t*x;
+			EndFor.
+			Return t;
+		EndBody.
+		

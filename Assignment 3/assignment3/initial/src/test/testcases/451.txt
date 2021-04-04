@@ -1,0 +1,17 @@
+
+        Var: a, b, arr[10][10], array[10][10];
+        Function: main
+        Parameter: x, y, main
+        Body:
+            If main && x Then
+                Return y + 1;
+            EndIf.
+            Return arr[0][0];
+        EndBody.
+        Function: foo
+        Parameter: x, y
+        Body:
+            array[2][3] = x =/= y;
+            arr = array;
+        EndBody.
+        

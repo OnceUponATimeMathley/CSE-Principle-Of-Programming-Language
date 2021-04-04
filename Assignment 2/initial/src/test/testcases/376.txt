@@ -1,0 +1,7 @@
+
+    Function: main
+        Body:
+            a = a[1];
+            a = a[-1][a];
+        EndBody.
+    

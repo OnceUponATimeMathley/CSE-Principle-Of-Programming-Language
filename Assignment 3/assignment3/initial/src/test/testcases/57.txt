@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			Var: arr[10][10][0xFF];
+			Var: x = 10;
+			x = arr[arr[arr[1]]][1][15 + x];
+		EndBody.
+		

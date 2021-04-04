@@ -1,0 +1,21 @@
+
+        Var: x, a[4][5][2][5][6];
+        Function: main
+        Parameter: y
+        Body:
+            x = foo(5) * y;
+            y = a[x][0 + x][0 + 2][y * 3 - x][y];
+        EndBody.
+
+        Function: foo
+        Parameter: n
+        Body:
+            Var: k, arr[10];
+            If n < foo(x) Then
+                Return k;
+            ElseIf k == arr[1] Then
+                Return k * 2 - arr[foo(k)];
+            EndIf.
+            Return arr[5 + 2];
+        EndBody.
+        

@@ -1,0 +1,7 @@
+
+        Function: foo 
+        Parameter: n 
+        Body: 
+            m = [b+3];
+        EndBody.
+        

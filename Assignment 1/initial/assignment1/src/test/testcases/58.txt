@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			** invalid indexing **
+			Var: arr[5],x;
+			x = 10[2];
+		EndBody.
+		

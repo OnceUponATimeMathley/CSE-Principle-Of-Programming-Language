@@ -1,0 +1,1 @@
+Index Out Of Range: ArrayCell(Id(a),[Id(x),BinaryOp(+,IntLiteral(0),Id(x)),BinaryOp(+,IntLiteral(0),IntLiteral(2)),BinaryOp(-,BinaryOp(*,Id(y),IntLiteral(3)),Id(x)),Id(y)])

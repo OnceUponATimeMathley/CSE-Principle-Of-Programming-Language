@@ -1,0 +1,26 @@
+
+        Var: a, b;
+        Function: f
+        Parameter: a, b
+        Body:
+            Var: flags[2][4];
+            flags[0][0] = (9. =/= t()) || f(a * b, a)[1][2];
+            Return flags;
+        EndBody.
+        Function: main
+        Parameter: x, y
+        Body:
+            Do
+                a = x + y;
+                b = float_of_int(a);
+            While f(x, y)[1][2] EndDo.
+        EndBody.
+        Function: t
+        Body:
+            Return t() *. 0.1;
+        EndBody.
+        Function: mm
+        Body:
+            a = int_of_float(b);
+        EndBody.
+        

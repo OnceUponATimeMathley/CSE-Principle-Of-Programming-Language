@@ -1,0 +1,16 @@
+
+		Var: x = 10;
+		Function: main
+		Body:
+			Var: x = 6;
+			printStr(string_of_int(fibo(x*2)));
+		EndBody.
+
+		Function: fibo
+		Parameter: n
+		Body:
+			If n<2 Then Return 1;
+			EndIf.
+			Return fibo(n-1) + fibo(n-2);
+		EndBody.
+		

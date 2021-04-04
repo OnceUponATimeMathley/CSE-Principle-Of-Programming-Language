@@ -1,0 +1,87 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+            While 2==2 Do
+                Do
+                    a = 9;
+                While x==2 EndDo.
+            EndWhile.
+        EndBody.
+        

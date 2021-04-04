@@ -1,0 +1,21 @@
+
+        Var: kk = {123, 0x13, 0o13, "dasd", {}};
+        Function: main
+        Body:
+            While exp == exp() && !error() Do
+                print("kfkfkf" * 4);
+                If cond() Then
+                    process();
+                    log();
+                    Break;
+                ElseIf k Then
+                    handle();
+                    error();
+                    log();
+                Else
+                    log();
+                    close();
+                    finish();
+                EndIf.
+            EndWhile. 
+        EndBody.

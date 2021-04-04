@@ -1,0 +1,5 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            a[3+foo(3)] = a[b[2][3]] + 4;
+        EndBody.

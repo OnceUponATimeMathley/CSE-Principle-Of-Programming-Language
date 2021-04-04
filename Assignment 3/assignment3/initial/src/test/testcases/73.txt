@@ -1,0 +1,20 @@
+
+		Function: main
+		Body:
+			Var: x,i,res = 0;
+			x = int_of_string(read());
+			For (i=0, i<x*x*x, i+1) Do
+				Var: z;
+				z = random();
+				If z>10 Then Break;
+					ElseIf z>5 Then res = res * i;
+					Else res = res + i;
+				EndIf.
+			EndFor.
+			Return res;
+		EndBody.
+		Function: random
+		Body:
+			Return 5;
+		EndBody.
+		

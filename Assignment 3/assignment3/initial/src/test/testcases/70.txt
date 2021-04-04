@@ -1,0 +1,19 @@
+
+		Function: main
+		Body:
+			Var: n,f,s,t;
+			While ((n>999) || (n<100)) Do
+				printStr("Nhap n: ");
+				n = int_of_string(read());
+			EndWhile.
+			t = n % 10;
+			n = n \ 10;
+			s = n % 10;
+			f = n \ 10;
+			printStr(string_of_int(f));
+			printStr(" tram ");
+			printStr(string_of_int(s));
+			printStr(" chuc ");
+			printStr(string_of_int(t));
+		EndBody.
+		

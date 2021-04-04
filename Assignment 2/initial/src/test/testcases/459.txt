@@ -1,0 +1,7 @@
+
+Function: main
+    Body:
+        foo(0o1,0o2,0o3,0o4,0o5,0o6,0o7);
+        foo(0O1,0O2,0O3,0O4,0O5,0O6,0O7);
+        foo(0o1000000000,0O76543210);
+    EndBody.

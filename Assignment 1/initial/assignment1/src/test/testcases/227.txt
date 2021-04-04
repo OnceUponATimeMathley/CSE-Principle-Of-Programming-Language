@@ -1,0 +1,9 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            While x>1 Do
+                If x==1 Then Return;
+                Else Break;
+                EndIf.
+            EndWhile.
+        EndBody.

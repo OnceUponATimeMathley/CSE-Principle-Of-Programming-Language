@@ -1,0 +1,15 @@
+
+		Var: x = 5,y,z;
+		Var: a,b;
+		Function: main
+		Parameter: x,a,d
+		Body:
+			Var: z = 10, arr[10][20];
+			printStr(string_of_int(x));
+			printStr(string_of_int(y));
+			printStr(string_of_int(z));
+			printStr(string_of_int(a));
+			printStr(string_of_int(b));
+			printStr(string_of_int(d));
+		EndBody.
+		

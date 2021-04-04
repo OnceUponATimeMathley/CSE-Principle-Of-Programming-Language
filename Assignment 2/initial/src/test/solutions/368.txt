@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(swap)[VarDecl(Id(a)),VarDecl(Id(b))],([VarDecl(Id(temp))][Assign(Id(temp),Id(a)),Assign(Id(a),Id(b)),Assign(Id(b),Id(temp))]))])

@@ -1,0 +1,9 @@
+
+        Function: is_valid_index
+        Parameter: arr[10], max_length, index
+        Body:
+            If index >= max_length Then raise(error());
+            Else
+                Return arr[index];
+            EndIf.
+        EndBody.

@@ -1,0 +1,8 @@
+Var: x=4;
+Function: mk
+	Parameter: a,b
+	Body:
+		long="dep trai";
+		school=3+5;
+		Return 0;
+	EndBody.

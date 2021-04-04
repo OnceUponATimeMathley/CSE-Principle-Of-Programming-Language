@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			If ((1>0) && (5<=15) || (1. > -4)) Then printStr("HELLO");
+			Else printStr("KHONG HELLO :)");
+			EndIf.
+		EndBody.
+		

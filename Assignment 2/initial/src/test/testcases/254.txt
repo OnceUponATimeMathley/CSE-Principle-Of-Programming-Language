@@ -1,0 +1,9 @@
+
+        Function: ff 
+        Parameter: n,p,o,i
+        Body: 
+            If n == 0 Then
+                Var: a = 7;
+                Return 1;
+            EndIf.
+        EndBody.

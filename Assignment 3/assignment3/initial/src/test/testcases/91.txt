@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+			Var: a[2][0xFF][0O11765466546];
+			a[x+2*foo(2 + foo(foo(foo(x)))) + random()] = a[12 * x - foo(foo(foo(x)))[12] + a[x]];
+		EndBody.
+		

@@ -1,0 +1,10 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            Var: i = 0;
+            While i < 5 Do
+                Var: k = 10;
+                a[i] = b +. 1.0;
+                i = i + 1;
+            EndWhile.
+        EndBody.

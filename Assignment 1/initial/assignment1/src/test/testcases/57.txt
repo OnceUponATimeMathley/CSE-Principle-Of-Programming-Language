@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+			** exp SEMI is not an statement **
+			1 + 2;
+		EndBody.
+		

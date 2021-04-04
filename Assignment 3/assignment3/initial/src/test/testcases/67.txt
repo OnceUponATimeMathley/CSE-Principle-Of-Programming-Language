@@ -1,0 +1,18 @@
+
+		Var: x = 10;
+		Function: main
+		Body:
+			Var: y = 10,z,arr,i,j;
+			While (y<15) Do
+				Var: x = 7;
+				printStr(string_of_int(x));
+				y = y + 1;
+			EndWhile.
+
+			For (i=0, i<10, i+1) Do
+				Var: x = 9;
+				printStr(string_of_int(x));
+			EndFor.
+			printStr(string_of_int(x));
+		EndBody.
+		

@@ -1,0 +1,14 @@
+
+Function: main
+    Body:
+        Var: sum = 0, a = 1;
+        While a < 10 Do
+            Var: b = 1, prod = 1;
+            While b < 10 Do
+                prod = prod * b;
+                b = b + 1;
+            EndWhile.
+            sum = sum + prod;
+            a = a + 1;
+        EndWhile.
+    EndBody.

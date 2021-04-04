@@ -1,0 +1,11 @@
+ Function: testIfStatement
+                        Parameter: x, a, b, c
+                        Body:
+                            If(x == ((False||True) && (ea > be + ce))) Then
+                                a = b - c;
+                            Else
+                                a = b + c;
+                                x = True;
+                            EndIf.
+                        EndBody.
+                    

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(t_2937124)[VarDecl(Id(arr),[100])],([VarDecl(Id(sum),IntLiteral(0))][CallStmt(Id(create_multi_threads),[Id(num_threads)]),For(Id(i),IntLiteral(0),BinaryOp(<,Id(i),Id(len)),IntLiteral(1),[],[CallStmt(Id(lock),[]),Assign(Id(sum),BinaryOp(+,Id(sum),ArrayCell(Id(arr),[Id(i)]))),CallStmt(Id(unlock),[])]),CallStmt(Id(destroy_all_resources),[])]))])

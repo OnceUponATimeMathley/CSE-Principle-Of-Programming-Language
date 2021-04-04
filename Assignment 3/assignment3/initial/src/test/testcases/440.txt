@@ -1,0 +1,22 @@
+
+        Var: a, b, arr[10][10];
+        Function: main
+        Parameter: x, y
+        Body:
+            For(a = f()[1][2], c()[1 + 2][fe()][fe()][fe()], arr[1][1]) Do
+            EndFor.
+        EndBody.
+        Function: f
+        Body:
+            Return arr;
+        EndBody.
+        Function: c
+        Body:
+            Var: a[2][3][4][5];
+            Return a;
+        EndBody.
+        Function: fe
+        Body:
+            Return float_of_int(b);
+        EndBody.
+        

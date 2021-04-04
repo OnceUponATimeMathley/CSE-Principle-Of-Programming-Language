@@ -1,0 +1,4 @@
+
+		** invalid global variable name **
+		Var: a,b,1c;
+		

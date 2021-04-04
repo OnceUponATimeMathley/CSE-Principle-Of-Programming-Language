@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+			Var: x = 10,arr[10][40];
+			((foo(foo(1))))[1+x][2*x] = 14;
+		EndBody.
+		

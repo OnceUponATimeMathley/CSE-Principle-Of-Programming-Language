@@ -1,0 +1,16 @@
+
+		Function: factor
+		Parameter: x
+		Body:
+			Var: t = 1, i;
+			For (i = 1, i <= x, i + 1) Do
+				t = t * i;
+			EndFor.
+			Return t;
+		EndBody.
+
+		Function: main
+		Body:
+			print(factor(10));
+		EndBody.		
+		

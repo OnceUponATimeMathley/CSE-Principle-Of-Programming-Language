@@ -1,0 +1,16 @@
+
+        Function: max
+        Parameter: x, y
+        Body:
+            If x > y Then
+                Return x;
+            Else
+                Return y;
+            EndIf.
+        EndBody.
+        Function: main
+        Body:
+            Var: a = 10, b = 20;
+            print("%d", max(a, b));
+            Return;
+        EndBody.

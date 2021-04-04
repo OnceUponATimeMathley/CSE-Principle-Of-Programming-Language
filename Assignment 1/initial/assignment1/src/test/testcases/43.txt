@@ -1,0 +1,13 @@
+
+		Function: main
+		Body:
+			**Function inside another function**
+
+			**Do something**
+
+			Function: subFunction
+			Body:
+				**Do something**
+			EndBody.
+		EndBody.
+		

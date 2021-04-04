@@ -1,0 +1,18 @@
+
+		Function: main
+		Body:
+			Var: i,j,t,z=0;
+			For (i=0,i<10,i+1) Do
+				j = 0;
+				While (j<20) Do
+					t = 0;
+					Do
+						printStr(string_of_int(t));
+						t = t + 1;
+					While (t < 5)
+					EndDo.
+					j = j + 1;
+				EndWhile.
+			EndFor.
+		EndBody.
+		

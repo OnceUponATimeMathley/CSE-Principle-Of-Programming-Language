@@ -1,0 +1,10 @@
+
+        Function: test
+        Parameter: str
+        Body:
+            Var: dt;
+            For(i = 0, i < len(str), 1) Do
+                dt[dt[dt[arr[i]]]] = dt[arr[dt[arr[i]]]] + 1;
+                f(dt, k * {1, 2, 3, 4});
+            EndFor.
+        EndBody.

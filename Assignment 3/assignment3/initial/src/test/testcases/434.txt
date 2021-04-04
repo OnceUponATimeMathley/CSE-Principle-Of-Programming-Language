@@ -1,0 +1,13 @@
+
+        Var: a, b[2][2], c;
+        Function: main
+        Body:
+           b[f()][f()] = 123;
+        EndBody.
+        Function: f
+        Body:
+            Var: c[2][3];
+            b = c;
+            Return 1;
+        EndBody.
+        

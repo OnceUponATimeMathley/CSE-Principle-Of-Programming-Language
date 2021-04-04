@@ -1,0 +1,8 @@
+
+Function: main
+    Body:
+        Do
+            Var: a;
+        While True
+        EndDo.
+    EndBody.

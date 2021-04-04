@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][CallStmt(Id(print),[CallExpr(Id(string_of_int),[CallExpr(Id(foo),[ArrayLiteral(IntLiteral(100),IntLiteral(42),IntLiteral(4),IntLiteral(2),IntLiteral(63),IntLiteral(42),IntLiteral(53),IntLiteral(22),IntLiteral(731),IntLiteral(431))])])])]))])

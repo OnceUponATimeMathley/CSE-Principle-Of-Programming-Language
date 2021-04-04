@@ -1,0 +1,24 @@
+
+        Var: x, a[10], b[5];
+        Function: foo
+        Parameter: k
+        Body:
+            a[0] = 1;
+            Return a;
+        EndBody.
+        Function: main
+        Parameter: x
+        Body:
+            If foo(float_of_int(x))[3] == 2 Then
+                Return 0;
+            ElseIf b[x] != b[0] Then
+            EndIf.
+            foo(0e-2)[9] = b[x + 2]*b[x + foo(1e-2)[2 + foo(2.0202)[0 * foo(1.2)[foo(2.3)[4 % 2 + 6 % 3 + 2 * 4] * x \ 2]]]] - a[a[a[a[x]]]];
+            If True Then
+                Return x;
+            Else
+                Return a[0];
+            EndIf.
+        EndBody.
+
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][If(BooleanLiteral(true),[],[])ElseIf(BooleanLiteral(true),[VarDecl(Id(a)),VarDecl(Id(b))],[CallStmt(Id(foo1),[]),CallStmt(Id(foo2),[])])Else([],[])]))])

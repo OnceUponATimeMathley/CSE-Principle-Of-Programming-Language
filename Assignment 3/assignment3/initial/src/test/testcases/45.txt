@@ -1,0 +1,17 @@
+
+		** duplicate function name **
+		Function: main
+		Body:
+			printStr("The first main function");
+		EndBody.
+
+		Function: main
+		Body:
+			printStr("The second main function");
+		EndBody.
+
+		Function: main
+		Body:
+			printStr("The third main function");
+		EndBody.
+		

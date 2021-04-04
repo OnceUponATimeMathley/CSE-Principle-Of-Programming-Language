@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+			** empty statement **
+			;
+		EndBody.
+		

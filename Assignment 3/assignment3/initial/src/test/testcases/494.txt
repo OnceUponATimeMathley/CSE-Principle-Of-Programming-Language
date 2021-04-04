@@ -1,0 +1,10 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            If b[2] == 2 Then
+            ElseIf b[2] && (b[0] || b[4]) Then
+            EndIf.
+        EndBody.
+        

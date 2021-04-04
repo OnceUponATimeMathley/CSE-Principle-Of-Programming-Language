@@ -1,0 +1,12 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            For (a=1,a,a) Do
+                For (b=2,b,b) Do
+                    arr[a]=arr[b]+1;
+                EndFor.
+            EndFor.
+        EndBody.
+        

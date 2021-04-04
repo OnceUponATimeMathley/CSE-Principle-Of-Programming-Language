@@ -1,0 +1,13 @@
+
+		Var: a,b=1,c=2,arr[0xFF],x,y,z=False;
+		Function: main
+		Parameter: b,d
+		Body:
+			Var: c=5,i = 0;
+			For (i = 0, i<b, i+c) Do
+				printStr(string_of_int(i));
+				printStr(" ");
+				printStrLn(string_of_int(c));
+			EndFor.
+		EndBody.
+		

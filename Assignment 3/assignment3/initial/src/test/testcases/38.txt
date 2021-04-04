@@ -1,0 +1,12 @@
+
+		Function: main
+		Body:
+			printStrLn("string");
+			printStrLn({1,2,3});
+			printStr(a,b,1,True,100.e1);
+			printStrStrLn("string and new line");
+			read();
+			x = read();
+			read(a);			
+		EndBody.
+		

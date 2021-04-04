@@ -1,0 +1,12 @@
+
+        Var: arr[10][0o10] = {{1,2,3,4}, {1,2,3}, {2,3,4}};
+        Function: main
+        Body:
+            For(i = 0, i < getlength(arr, axis(0)), 1) Do
+                Var: j = 0;
+                While (isvalid(arr, axis(1), j)) Do
+                    print(arr[i][j] * 10);
+                    j = j + 1;
+                EndWhile.
+            EndFor.
+        EndBody.

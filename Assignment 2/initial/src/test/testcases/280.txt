@@ -1,0 +1,10 @@
+Function: ge35 
+        Parameter: n
+        Body: 
+            Do
+                Do
+                    x=5;
+                While(a!=3) EndDo.
+            While(c != 3) EndDo.
+            For (i = 0, i != 5, i*1) Do x=6; EndFor.
+        EndBody.

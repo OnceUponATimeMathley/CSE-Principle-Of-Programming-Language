@@ -1,0 +1,14 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: x =5, y = {{4,3},3};
+            For(a=1,a,a) Do
+                    a=a;
+                    b=b;
+                    c=a>b;
+
+            EndFor.                
+        EndBody.
+        

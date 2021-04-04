@@ -1,0 +1,11 @@
+
+		Function: main
+		Parameter: x
+		Body:
+			Var: a[5],b,c=9,d;
+			a[3+foo(2)] = a[x[2][3]] + 4;
+			For (b=0,b<c,b+1) Do
+				d = d + 1;
+			EndFor.
+		EndBody.
+		

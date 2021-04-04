@@ -1,0 +1,7 @@
+Function: foo
+                        Parameter: x
+                        Body:
+                            For (i = 1, i <= x*x*x,i + x ) Do
+                                writeln(i);
+                            EndFor.
+                        EndBody.

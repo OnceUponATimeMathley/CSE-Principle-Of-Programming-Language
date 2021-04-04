@@ -1,0 +1,10 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Do
+                fire(bomb[psn() + par() + brn()]);
+            While hp > 5 EndDo.
+        EndBody.
+        

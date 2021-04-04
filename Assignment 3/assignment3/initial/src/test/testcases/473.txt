@@ -1,0 +1,13 @@
+
+        Var: a[2] = {0, 1};
+        Function: foo
+        Parameter: x
+        Body:
+            Return a;
+        EndBody.
+
+        Function: main
+            Body:
+                foo(0)[0] = foo(0.0)[1 * a[1]];
+            EndBody.
+        

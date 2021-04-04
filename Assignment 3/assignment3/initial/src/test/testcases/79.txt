@@ -1,0 +1,26 @@
+
+		Function: foo
+		Body:
+			Return 0;
+		EndBody.
+
+		Function: foo
+		Body:
+			Return 1;
+		EndBody.
+
+		Function: foo
+		Body:
+			Return 2;
+		EndBody.
+
+		Function: foo
+		Body:
+			Return 3;
+		EndBody.
+
+		Function: foo
+		Body:
+			Return 4;
+		EndBody.
+		

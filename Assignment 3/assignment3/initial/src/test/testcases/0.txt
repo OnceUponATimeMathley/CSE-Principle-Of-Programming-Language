@@ -1,0 +1,15 @@
+
+                Var: b=2, m[2][2] = {{1,9}, {5,15}};
+                Function: main
+                   Body: 
+                   Var: y[2] = {5,9}, z[2] = {1,7}, t = 2;                 
+                    f(y, 6);
+                   EndBody.
+                   
+                Function: f
+                Parameter: x[2], t
+                Body:
+                    x[0] = 5;
+                    t = 7;
+                Return;
+                EndBody.

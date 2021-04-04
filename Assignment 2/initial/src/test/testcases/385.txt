@@ -1,0 +1,7 @@
+
+        Var: k = False;
+        Var: str = "no thing";
+        Var: d = 123;
+        Function: t___k
+        Body:
+        EndBody.

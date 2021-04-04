@@ -1,0 +1,14 @@
+Function: foo 
+            Parameter: n
+            Body: 
+            Var : a;
+            EndBody.
+
+            Function: program22
+            Parameter: e
+            Body:
+            EndBody.
+
+            Function: main
+            Body:
+            EndBody.

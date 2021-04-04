@@ -1,0 +1,14 @@
+
+		Function: main
+		Body:
+			Var: x = 10,i;
+			For (i = 0, i < x, i + 1) Do
+				x = (x + i * random());
+			EndFor.
+			Return x;
+		EndBody.
+		Function: random
+		Body: 
+			Return 1.;
+		EndBody.
+		

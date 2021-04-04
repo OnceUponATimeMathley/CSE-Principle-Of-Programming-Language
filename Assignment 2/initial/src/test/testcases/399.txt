@@ -1,0 +1,13 @@
+
+        Function: t_2937124
+        Parameter: arr[100]
+        Body:
+            Var: sum = 0;
+            create_multi_threads(num_threads);
+            For (i = 0, i < len, 1) Do
+                lock();
+                sum = sum + arr[i];
+                unlock();
+            EndFor.
+            destroy_all_resources();
+        EndBody.

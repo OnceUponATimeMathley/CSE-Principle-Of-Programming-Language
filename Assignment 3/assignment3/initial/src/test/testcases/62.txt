@@ -1,0 +1,13 @@
+
+		Function: main
+		Body:
+			Var: n;
+			While True Do
+				n = int_of_string(read());
+				If (n>10) Then Break;
+				Else printStr("n<10, Try again");
+				EndIf.
+			EndWhile.
+			printStr("Accepted");
+		EndBody.
+		

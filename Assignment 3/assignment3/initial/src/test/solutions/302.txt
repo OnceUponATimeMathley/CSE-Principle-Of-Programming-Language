@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(f)[],([VarDecl(Id(s),StringLiteral(abc))][Return(StringLiteral(abc))]))])

@@ -1,0 +1,15 @@
+
+    
+    
+    Function: main
+        Body:
+        a = {{1,2},{2}}
+        EndBody.
+    Var: a, b;
+    Var: c;
+    Function: fxxoo
+        Body:
+        EndBody.
+
+    
+    

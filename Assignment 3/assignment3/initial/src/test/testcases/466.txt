@@ -1,0 +1,15 @@
+
+        Var: x[10];
+        Function: foo
+        Parameter: a, b
+        Body:
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[10], t, z;
+            t = 4;
+            a[0] = t;
+            a = foo(t, 4);
+        EndBody.
+        

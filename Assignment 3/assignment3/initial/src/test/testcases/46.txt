@@ -1,0 +1,21 @@
+
+		**declare function with some parameters
+		* but call it without arg
+		**
+
+		Function: foo
+		Parameter: a,b,c
+		Body:
+			If (a > 1) Then 
+				Return a;
+			EndIf.
+			Return a + foo(1,b,c);
+		EndBody.
+
+		Function: main
+		Body:
+			foo(1,2,3); **OK**
+			x = foo(1);	**OK**
+			foo();		**OK**
+		EndBody.
+		

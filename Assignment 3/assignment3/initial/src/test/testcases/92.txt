@@ -1,0 +1,11 @@
+
+		Function: main
+		Body:
+			Var: x = 1;
+			x = -----------------------------------15;
+			Do
+				x = -----------x;
+			While True
+			EndDo.
+		EndBody.
+		

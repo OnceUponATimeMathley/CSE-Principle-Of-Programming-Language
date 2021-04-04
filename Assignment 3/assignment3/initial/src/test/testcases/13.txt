@@ -1,0 +1,19 @@
+
+        Var: x;
+        Function: main
+        Parameter: x
+        Body:
+
+        EndBody.
+        Function: test
+        Body:
+            If x Then
+                foo();
+            Else
+                test();
+            EndIf.
+        EndBody.
+        Function: foo
+        Body:
+        EndBody.
+        

@@ -1,0 +1,25 @@
+
+        Var: var = {0o123, 123., 123e-1, "das", 0x123};
+        Function: test
+        Body:
+            Var: x = 12;
+            For(i = "dasd" * 12, "dasd", "d") Do
+                Var: m = 10;
+                If m != 10 Then
+                    Var: x;
+                    x = int(input());
+                ElseIf m && False Then
+                    Var: x;
+                    print(x);
+                Else
+                    Do
+                        Var: k;
+                        k = int(input());
+                        If k == 10 Then
+                            Var: i;
+                            Break;
+                        EndIf.
+                    While True EndDo.
+                EndIf.
+            EndFor.
+        EndBody.

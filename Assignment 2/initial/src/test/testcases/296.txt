@@ -1,0 +1,12 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            While 2==x Do
+                If fun1()==fun2() Then
+                    a = 9;
+                EndIf.
+            EndWhile.
+        EndBody.
+        

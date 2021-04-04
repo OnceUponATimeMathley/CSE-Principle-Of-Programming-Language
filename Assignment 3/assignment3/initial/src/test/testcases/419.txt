@@ -1,0 +1,21 @@
+
+        Var: x[10][10];
+        Function: main
+        Parameter: flag
+        Body:
+            f("s")[2][3] = 100;
+            If f("a")[0][1] == foo()[1][2] Then
+                f(flag)[1][3] = 0o10;
+            EndIf.
+            flag = 12;
+        EndBody.
+        Function: f
+        Parameter: x
+        Body:
+            Return foo();
+        EndBody.
+        Function: foo
+        Body:
+            Return x;
+        EndBody.
+        

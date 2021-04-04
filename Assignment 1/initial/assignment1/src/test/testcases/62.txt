@@ -1,0 +1,9 @@
+
+		Function: main
+		Body:
+			** For statement missing arguments **
+			For (x = 1, **nothing** , **nothing**) Do
+				**Do something**
+			EndDo.
+		EndBody.
+		

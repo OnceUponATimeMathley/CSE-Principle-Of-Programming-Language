@@ -1,0 +1,1 @@
+Program([VarDecl(Id(x)),FuncDecl(Id(test)[],([][While(BooleanLiteral(true),[],[Assign(Id(v),CallExpr(Id(receive),[Id(socket),Id(max_len)])),If(Id(v),[],[CallStmt(Id(handle),[])])Else([],[CallStmt(Id(raise),[CallExpr(Id(error),[StringLiteral(failed)])])])])]))])

@@ -1,0 +1,13 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            If i == -3.00e5 Then
+                While i =/= 0 Do
+                    i = i-1;
+                EndWhile. 
+            EndIf.
+            Return 0;
+        EndBody.
+        

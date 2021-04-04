@@ -1,0 +1,12 @@
+
+        Var: x;
+        Function: main
+        Parameter: x
+        Body:
+            x = x + test(x, 1);
+        EndBody.
+        Function: test
+        Parameter: x, y
+        Body:
+        EndBody.
+        

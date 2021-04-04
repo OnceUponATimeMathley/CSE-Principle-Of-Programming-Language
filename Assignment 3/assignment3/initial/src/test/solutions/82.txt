@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Assign(Id(fi),CallExpr(Id(open),[StringLiteral(input.txt),StringLiteral(r)]))

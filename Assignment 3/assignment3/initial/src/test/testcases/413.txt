@@ -1,0 +1,8 @@
+
+        Var: x[10];
+        Function: main
+        Body:
+            x[0] = 1;
+            x[1] = "s";
+        EndBody.
+        

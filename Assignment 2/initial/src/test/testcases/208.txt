@@ -1,0 +1,13 @@
+
+        Var: t = 0;
+
+        Function: mk
+        Parameter: x
+        Body:
+            For (i = 0, i < 10, 2) Do
+                writeln(i);
+            EndFor.
+            writeln(exp(2, 3) + exp(3, 2));
+            Return x+3;
+        EndBody.
+        

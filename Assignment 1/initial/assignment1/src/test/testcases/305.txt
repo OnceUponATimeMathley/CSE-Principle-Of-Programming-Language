@@ -1,0 +1,10 @@
+Var: x, y =1, y = "abc'" hello \t ", m[1], n[10] = {1,2,{"an",5.4},5.e-12};
+            Var: a_jacj933 = 00012.21; 
+        Function: fact
+        Parameter: n, aca_312aAX[3][44][0x31FF], cxa[0x12][0o1][8][0]
+        Body:
+        Var: t, r= 10.;
+        Var: thread = 0000212.3123E+312.0, r= 10.;
+        v = (4. \. 3.);
+        
+        EndBody.

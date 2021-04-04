@@ -1,0 +1,6 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            x = !(True);
+            y = (False || True) && True;
+        EndBody.

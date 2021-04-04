@@ -1,0 +1,36 @@
+
+		Function: main
+		Body:
+			Var: arr[10] = {1,8,2,0,3,4,1,6,8,10};
+			minHeap = buildMinHeap(arr);
+			min = pop(minHeap);
+			maxHeap = buildMaxHeap(arr);
+			max = pop(maxHeap);
+			arr = heapSort(minHeap);
+			printArr(arr);
+		EndBody.
+
+		Function: buildMinHeap
+		Parameter: arr
+		Body:
+			** Do something **
+		EndBody.
+
+		Function: buildMaxHeap
+		Parameter: arr
+		Body:
+			** Do something **
+		EndBody.
+
+		Function: pop
+		Parameter: heap
+		Body:
+			** Do something **
+		EndBody.
+
+		Function: heapSort
+		Parameter: heap
+		Body:
+			** Do something **
+		EndBody.
+		

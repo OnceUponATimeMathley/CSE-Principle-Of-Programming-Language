@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: If(BinaryOp(==,Id(flag),ArrayCell(CallExpr(Id(f),[IntLiteral(1)]),[IntLiteral(0),IntLiteral(1)])),[],[])Else([],[])

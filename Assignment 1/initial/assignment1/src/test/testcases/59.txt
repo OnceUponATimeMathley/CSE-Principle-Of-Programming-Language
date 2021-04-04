@@ -1,0 +1,6 @@
+
+		**comment in variable declare**
+		Var: x = 1;		**OK**
+		Var: x,y,z = "abc", t = **comment** 100;	**OK**
+		Var: q = -1;	**Fail**
+		

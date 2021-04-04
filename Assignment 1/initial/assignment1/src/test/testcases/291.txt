@@ -1,0 +1,9 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            If (x == y) || (x != y) Then
+                x = ((a >=. 2.3e-13) || (x =/= 2e-35));
+            EndIf.
+            z = (x < 3) && (y > 4);
+            a = (x != z);
+        EndBody.

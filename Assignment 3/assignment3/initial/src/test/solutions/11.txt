@@ -1,0 +1,1 @@
+Unreachable Statement: CallStmt(Id(test),[Id(a)])

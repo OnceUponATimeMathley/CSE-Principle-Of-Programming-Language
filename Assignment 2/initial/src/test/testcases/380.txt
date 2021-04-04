@@ -1,0 +1,12 @@
+
+        Function: mse
+        Parameter: a, b
+        Body:
+            Var: sum = 0.;
+            If len(a) =/= len(b) Then raise(error()); EndIf.
+            For(i = 0, i < len(a), 1) Do
+                sum = sum + (a[i] - b[i]) * (a[i] - b[i]);
+            EndFor.
+            print(sum * sum \. 2);
+        EndBody.
+        

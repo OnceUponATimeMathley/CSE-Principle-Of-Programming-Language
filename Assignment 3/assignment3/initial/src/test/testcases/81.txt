@@ -1,0 +1,15 @@
+
+		Var: j;
+		Function: main
+		Body:
+			Var: h_aogi_qiqit_nnnnawh;
+			Var: khong_bietDat_tEN_GI = "KhoNgbIEtVieTGi";
+			Var: i;
+			For (i=0,i<1000,i+1) Do
+				For (j=0,j<i,j+1) Do
+					printStr("Haiz ");
+				EndFor.
+				printStrLn(" ");
+			EndFor.
+		EndBody.
+		

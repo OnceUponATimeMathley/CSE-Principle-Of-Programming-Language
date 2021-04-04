@@ -1,0 +1,6 @@
+
+        Var : a,x, a[12][3] = {{},{}} , a[1];
+        Var : a[1][4] = {{5,6},{True, False},{1,True,"string",1.5}};
+        Var : x = -5 , b = 5, c = 5.0 , d = 5.e12 , f = 5.1e-12, g = 4.2e17;
+        Var : a , b = "string", c = True, d = False;
+        

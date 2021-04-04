@@ -1,0 +1,6 @@
+
+		Function: main
+		Body:
+			((((((foo((foo(1))))[12])[0o71]))))[12] = 1;
+		EndBody.
+		

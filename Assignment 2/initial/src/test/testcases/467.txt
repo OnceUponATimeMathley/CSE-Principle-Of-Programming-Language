@@ -1,0 +1,6 @@
+
+Function: main
+    Body:
+        a = True;
+        a = False;
+    EndBody.

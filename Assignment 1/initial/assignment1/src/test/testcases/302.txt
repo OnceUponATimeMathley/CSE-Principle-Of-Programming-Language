@@ -1,0 +1,5 @@
+Var: x, y =1, y = "abc'" hello \t ", m[1], n[10] = {1,2,{"an",5.4},5.e-12};
+            Var: Aa_jacj933 = 00012.21; 
+        Function: fact
+        Body:
+        EndBody.

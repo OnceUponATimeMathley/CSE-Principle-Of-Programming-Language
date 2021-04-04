@@ -1,0 +1,8 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            x = 5;
+        EndBody.
+        

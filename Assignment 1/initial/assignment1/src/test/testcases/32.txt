@@ -1,0 +1,12 @@
+
+		Function: main
+		Body:
+			Var: n = 100;
+			printLn("This program is missing a dot");
+			If isPrime(n) == True Then
+				print("Is a prime number");
+			Else
+				print("Is not a prime number");
+			EndIf
+		EndBody.
+		

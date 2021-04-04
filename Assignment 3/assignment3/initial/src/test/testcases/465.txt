@@ -1,0 +1,22 @@
+
+        Var: x[10];
+        Function: main
+        Body:
+            Var: y, z;
+            x[2] = x[0o3] || (y > z);
+            While x[2] && x[3] Do
+                Do
+                    printStrLn(string_of_int(y * z));
+                    If x[0] Then
+                        Return 1;
+                    ElseIf x[1] Then
+                        Return z;
+                    Else
+                        Var: k;
+                        k = 10;
+                    EndIf.
+                    z = y;
+                While x[4] EndDo.
+            EndWhile.
+        EndBody.
+        

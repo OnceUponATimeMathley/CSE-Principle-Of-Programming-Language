@@ -1,0 +1,8 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            fun0(fun1(fun2(fun3(fun4("end here")))));
+        EndBody.
+        

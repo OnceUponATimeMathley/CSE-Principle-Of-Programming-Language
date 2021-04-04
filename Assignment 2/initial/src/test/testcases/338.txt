@@ -1,0 +1,10 @@
+
+        Var: s = "dad";
+        Function: sum
+        Body:
+            Var: sum = 0.;
+            For (i = init(i * init()), cond(c *. c() - c(c())), step(step - step(step \. step(step % step)))) Do
+                sum = sum + random(randint(range(0, rand())));
+            EndFor.
+        EndBody.
+        

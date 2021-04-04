@@ -1,0 +1,13 @@
+
+        Var: m, n[10]; 
+        Function: main 
+        Parameter: n 
+        Body: 
+            x = {{{1,2}, {3,4}}, {5,6}};
+            If n == 0 Then 
+                Return 1; 
+            Else
+                Return n * face({1,2});
+            EndIf.
+        EndBody. 
+        

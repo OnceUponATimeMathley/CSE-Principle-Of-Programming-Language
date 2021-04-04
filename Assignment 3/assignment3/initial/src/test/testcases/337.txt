@@ -1,0 +1,12 @@
+Var:x;
+        Function: test
+        Body:
+            f = -1234.;
+            Do 
+                Do
+                    If k Then If k Then EndIf. EndIf.
+                While False
+                EndDo.
+            While f < 10
+            EndDo.
+        EndBody.

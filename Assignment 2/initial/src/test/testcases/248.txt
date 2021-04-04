@@ -1,0 +1,11 @@
+
+        Function: dwss 
+        Parameter: nd
+        Body: 
+            While (xw>1) Do
+                If x==1 Then Return;
+                Else Continue;
+                EndIf.
+            EndWhile.
+        EndBody.
+        

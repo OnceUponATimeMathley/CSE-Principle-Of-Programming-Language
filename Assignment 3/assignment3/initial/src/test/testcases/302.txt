@@ -1,0 +1,7 @@
+
+                Function: f
+                Body:
+                Var: s="abc";
+                Return "abc";
+                EndBody.
+                

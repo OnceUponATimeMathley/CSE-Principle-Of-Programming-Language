@@ -1,0 +1,17 @@
+
+        Var: x[10], y, m;
+        Function: main
+        Body:
+            x[0] = y + 10;
+        EndBody.
+        Function: test
+        Body:
+            Var: a, b, c;
+            If x[2] == a Then
+                printStrLn(b);
+            EndIf.
+            For(a = 0, c < m, m \ 10) Do
+                printStr(string_of_int(a * c - m));
+            EndFor.
+        EndBody.
+        

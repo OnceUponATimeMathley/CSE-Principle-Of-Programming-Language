@@ -1,0 +1,13 @@
+Function: a4 
+        Parameter: n,p
+        Body: 
+            Do
+                For (id = 0, id != 5, id*1) Do xdd=6; EndFor.
+                Do
+                    ewx = a + b;
+                    writeln(ewx);
+                While(True || False || True || (a > b)) EndDo.
+            While(x < 10)
+            EndDo.
+            For (id = 0, id != 5, id*1) Do xdd=6; EndFor.
+        EndBody.

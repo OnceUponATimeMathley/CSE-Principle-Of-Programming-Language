@@ -1,0 +1,4 @@
+Var: x;
+                   Var: a,b,c;
+                   Var: a[100];
+                

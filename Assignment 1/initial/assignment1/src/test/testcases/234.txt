@@ -1,0 +1,7 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            If n == 0 Then
+                Return 1;
+            EndIf.
+        EndBody.

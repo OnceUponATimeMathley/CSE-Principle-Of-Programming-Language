@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Dowhile([],[CallStmt(Id(printStrLn),[ArrayCell(Id(b),[IntLiteral(2)])])],ArrayCell(CallExpr(Id(f),[]),[IntLiteral(2)]))

@@ -1,0 +1,13 @@
+
+        Var: a, b, arr[10][10];
+        Function: main
+        Parameter: x, y
+        Body:
+            f()[2][3] = a * 2;
+            arr[0][2] = "PPL!!! hard!!!";
+        EndBody.
+        Function: f
+        Body:
+            Return arr;
+        EndBody.
+        

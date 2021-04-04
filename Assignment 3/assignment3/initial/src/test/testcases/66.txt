@@ -1,0 +1,11 @@
+
+		Var: x = 10;
+		Function: main
+		Body:
+			Var: x = 10,i;
+			For (i = 0, i<10, i+1) Do
+				Var: x = 15;
+				printStr(string_of_int(x));
+			EndFor.
+		EndBody.
+		

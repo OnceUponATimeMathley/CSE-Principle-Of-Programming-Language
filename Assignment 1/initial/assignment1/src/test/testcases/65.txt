@@ -1,0 +1,14 @@
+
+		Function: main
+		Body:
+			** test built-in functions, ignore args (type,number)
+				just consider syntax **
+			printLn("string");
+			printLn({1,2,3});
+			print(a,b,1,True,100.e1);
+			printStrLn("string and new line");
+			read();
+			x = read();
+			read(a);			
+		EndBody.
+		

@@ -1,0 +1,12 @@
+
+		Function: main
+		Body:
+			** comment inside statement **
+			Var: x **comment**,y;
+			For (x = 1,**comment**x>1,x + **comment**1) **While**Do
+				********
+				**comment**
+				y = **comment** a + 1;
+			EndFor.
+		EndBody.
+		

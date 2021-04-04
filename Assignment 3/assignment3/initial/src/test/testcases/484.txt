@@ -1,0 +1,22 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            While f(2, 3)[4] Do
+            EndWhile.
+        EndBody.
+        Function: test
+        Parameter: x, y
+        Body:
+        EndBody.
+        Function: foo
+        Body:
+            Return x;
+        EndBody.
+        Function: f
+        Parameter: z, t
+        Body:
+            Return a;
+        EndBody.
+        

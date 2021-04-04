@@ -1,0 +1,8 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: r3[4] = 3.e35;
+        EndBody.
+        

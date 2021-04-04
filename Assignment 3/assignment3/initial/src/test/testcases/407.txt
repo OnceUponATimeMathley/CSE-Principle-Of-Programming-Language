@@ -1,0 +1,10 @@
+
+        Function: test
+        Body:
+        EndBody.
+        Function: main
+        Body:
+            Var: x = 1;
+            x = test();
+        EndBody.
+        

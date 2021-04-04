@@ -1,0 +1,9 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            call ();
+            dw = 2;
+        EndBody.
+        

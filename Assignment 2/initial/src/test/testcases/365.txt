@@ -1,0 +1,12 @@
+
+        Function: test
+        Body:
+            Var: kASKHD0123;
+            Do
+                Var: l123OKKD;
+                While l123OKDS Do
+                    print()[13] = {1,2,3,4,5,6,7,8,9};
+                EndWhile.
+            While False EndDo.
+        EndBody.
+        

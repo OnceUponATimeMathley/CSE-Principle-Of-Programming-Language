@@ -1,0 +1,23 @@
+
+        Var: x, y;
+        Function: foo
+        Parameter: n
+        Body:
+            n = 10 * 2 - 1;
+            Return n;
+        EndBody.
+        Function: main
+        Body:
+            Var: t;
+            t = 10 + foo(2);
+            t = t +. factorial(t);
+        EndBody.
+        Function: factorial
+        Parameter: n
+        Body:
+            If (n == 0) || (n == 1) Then
+                Return 1;
+            EndIf.
+            Return n * factorial(n - 1);
+        EndBody.
+        

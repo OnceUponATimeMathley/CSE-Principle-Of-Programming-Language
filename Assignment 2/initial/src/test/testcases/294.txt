@@ -1,0 +1,12 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            For (a=a,a,2) Do
+                Do 
+                    callX(); 
+                While s==4 EndDo. 
+            EndFor.
+        EndBody.
+        

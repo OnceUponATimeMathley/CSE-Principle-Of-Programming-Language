@@ -1,0 +1,19 @@
+
+        Var: x;
+        Function: test
+        Body:
+            Var: x = 10;
+            Var: mm[10] = {1, 0x123, 0o123, "dasd"};
+            If k == 10 Then
+                While True Do
+                    move_left();
+                    Do 
+                        For(i = 0, i < upper(), step) Do
+                            While k > 10 Do
+                                print("das", 123, exp(p + 2));
+                            EndWhile.
+                        EndFor.
+                    While k == True EndDo.
+                EndWhile.
+            EndIf.
+        EndBody.

@@ -1,0 +1,7 @@
+
+Function: main
+    Body:
+        a = foo();
+        a = foo(1, True, "", 1.);
+        a = foo(foo(foo()));
+    EndBody.

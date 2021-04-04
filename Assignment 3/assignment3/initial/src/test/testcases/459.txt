@@ -1,0 +1,18 @@
+
+        Var: x[10][10];
+        Function: main
+        Parameter: flag
+        Body:
+            Var: v;
+            v = f(flag);
+        EndBody.
+        Function: f
+        Parameter: x
+        Body:
+            Return foo();
+        EndBody.
+        Function: foo
+        Body:
+            Return x;
+        EndBody.
+        

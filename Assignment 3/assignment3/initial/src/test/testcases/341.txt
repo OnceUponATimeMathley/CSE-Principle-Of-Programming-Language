@@ -1,0 +1,11 @@
+
+        Function: dfff
+        Body:
+            Var: s[100];
+            While !empty(s) Do
+                print(pop(s));
+            EndWhile.
+            While !full(s) Do
+                s = push(s, vr());
+            EndWhile.
+        EndBody.

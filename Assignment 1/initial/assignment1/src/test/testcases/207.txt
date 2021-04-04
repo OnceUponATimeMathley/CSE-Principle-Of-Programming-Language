@@ -1,0 +1,7 @@
+ 
+        Function: foo 
+        Parameter: n 
+        Body: 
+            c =wow + 5; 
+        EndBody.
+        

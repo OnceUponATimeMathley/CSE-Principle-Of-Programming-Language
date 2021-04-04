@@ -1,0 +1,10 @@
+
+        Function: ff 
+        Parameter: nq,p,o,i
+        Body: 
+            While n == 0 Do
+                Var: awq = 7;
+                Return 1;
+            EndWhile.
+        EndBody.
+        

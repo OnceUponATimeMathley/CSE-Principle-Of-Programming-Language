@@ -1,0 +1,9 @@
+ 
+        Function: bat
+        Parameter: n 
+        Body: 
+            If aewq ==5 Then bewq = 5;
+            Else cewq = 6; 
+            EndIf.
+        EndBody.
+        

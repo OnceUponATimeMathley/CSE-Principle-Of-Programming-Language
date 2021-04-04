@@ -1,0 +1,16 @@
+
+        Var: arr[100];
+        Var: x;
+        Function: binary_search
+        Parameter: low, high
+        Body:
+            Var: mid;
+            If low > high Then Return False; EndIf.
+            mid = (low + high) \ 2;
+            If (arr[mid] == x) Then Return False; EndIf.
+            If (arr[mid] < x) Then
+                Return binary_search(mid + 1, high);
+            Else
+                Return binary_search(low, mid - 1);
+            EndIf.
+        EndBody.

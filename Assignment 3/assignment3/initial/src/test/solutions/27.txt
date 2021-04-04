@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Assign(Id(out),CallExpr(Id(predict),[Id(inp)]))

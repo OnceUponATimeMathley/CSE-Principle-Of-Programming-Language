@@ -1,0 +1,22 @@
+
+        Var: x;
+        Function: main
+        Parameter: y
+        Body:
+            x = foo(5) * y;
+        EndBody.
+
+        Function: foo
+        Parameter: n
+        Body:
+            Var: k, arr[10];
+            If n < foo(x) Then
+                Return k * 2 - arr[foo(k)];
+            ElseIf k == arr[1] Then
+                Return k;
+            Else
+                Return x;
+            EndIf.
+            Return arr[5];
+        EndBody.
+        

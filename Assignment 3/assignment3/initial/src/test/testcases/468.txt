@@ -1,0 +1,16 @@
+
+        Var: x[10];
+        Function: foo
+        Parameter: a, b
+        Body:
+            b = x[5] * b % 4;
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[10], t, z;
+            t = 4;
+            foo(t, t)[2] = a[2];
+            a[int_of_float(4.3 *. 2.4 \. 0.1)] = z || (t > x[1]);
+        EndBody.
+        

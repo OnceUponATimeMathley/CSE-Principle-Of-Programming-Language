@@ -1,0 +1,18 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            Var: i;
+            If b[2] == 2 Then
+            ElseIf b[x] != b[0] Then
+                a = foo(i);
+            EndIf.
+        EndBody.
+        Function: foo
+        Parameter: k
+        Body:
+            a[0] = 1;
+            Return a;
+        EndBody.
+        

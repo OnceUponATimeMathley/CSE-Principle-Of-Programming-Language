@@ -1,0 +1,7 @@
+ 
+        Function: bar 
+        Parameter: n 
+        Body: 
+            If !a Then b = 5; EndIf.
+        EndBody.
+        

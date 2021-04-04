@@ -1,0 +1,31 @@
+
+        Var: max_length = 100;
+        Function: countintSort
+        Parameter: arr[100]
+        Body:
+            Var: output[100];
+            Var: count[100], i;
+            memset(count, 0, sizeof(count));
+            For(i = 0, arr[i] > 0, 1) Do
+                count[arr[i]] = count[arr[i]] + 1;
+            EndFor.
+            For(i = 1, i <= range(arr), 1) Do
+                count[i] = count[i] + count[i - 1];
+            EndFor.
+            For(i = 0, arr[i] > 0, 1) Do
+                output[count[arr[i]] - 1] = arr[i];
+                count[arr[i]] = count[arr[i]] - 1;
+            EndFor.
+            For( i = 0, arr[i] != 0, 1) Do
+                If i % 2 == 0 Then
+                    arr[i] = i \ 2;
+                ElseIf i % 3 == 0 Then
+                    arr[i] = 3 *. i;
+                ElseIf i % 5 == 1 Then
+                    arr[i] = i;
+                Else
+                    arr[i] = output[i];
+                EndIf.
+            EndFor.
+        EndBody.
+        

@@ -1,0 +1,6 @@
+
+                Function: main
+        Body:
+            print(string_of_int(foo({100, 42, 4, 2, 63, 42, 53, 22, 731, 431})));
+        EndBody.
+                

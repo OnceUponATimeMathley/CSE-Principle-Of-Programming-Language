@@ -1,0 +1,10 @@
+
+		Function: main
+		Body:
+			Var: a,b=9,c;
+			a = b*b;
+			If (a>b) Then print("|b|>1");
+			Else print("0<=|b|<=1");
+			EndIf.
+		EndBody.
+		

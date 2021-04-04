@@ -1,0 +1,9 @@
+
+		Function: main
+		Body:
+			Var: a = 1;
+			While (a == 1) Do
+				printStr("I\'m looping");
+			EndWhile.
+		EndBody.
+		

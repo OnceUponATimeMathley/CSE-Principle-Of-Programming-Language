@@ -1,0 +1,7 @@
+
+        Function: ccd 
+        Parameter: n 
+        Body: 
+            For (k=4,k<2,3) Do x=6; EndFor.
+            For (i = 0, i != 5, i*1) Do x=6; EndFor.
+        EndBody.

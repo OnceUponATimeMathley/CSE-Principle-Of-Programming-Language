@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			Var: arr[5] = {1,2,3,4,5};
+			** test index operator **
+			x = ((foo(foo(foo(arr)))))[10]; 
+		EndBody.
+		

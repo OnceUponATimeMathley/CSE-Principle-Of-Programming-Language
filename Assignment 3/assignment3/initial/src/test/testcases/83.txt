@@ -1,0 +1,11 @@
+
+		Var: day_name[7] = {"Mon","Tue","Wed","Thu","Fri","Sat","Sun"};
+		Function: main
+		Body:
+			Var: x;
+			x = int_of_string(read());
+			If (x<1) Then Return;
+			EndIf.
+			printStr(day_name[x%7]);
+		EndBody.
+		

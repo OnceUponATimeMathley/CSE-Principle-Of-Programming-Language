@@ -1,0 +1,25 @@
+
+        Var: x[10], y, m;
+        Function: main
+        Body:
+            x[0] = test() + y;
+        EndBody.
+        Function: test
+        Body:
+            Var: a, b, c;
+            Do
+                If c Then
+                    If c Then
+                    ElseIf False Then
+                        If a > b Then
+                            Break;
+                        Else
+                            Return 0;
+                        EndIf.
+                        a = b;
+                    EndIf.
+                EndIf.
+            While a == b EndDo.
+            Return a * b;
+        EndBody.
+        

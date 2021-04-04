@@ -1,0 +1,23 @@
+
+		Function: main
+		Body:
+			Var: arr = {1,2,3,4,5,6,7,8};
+			foo(arr,8);
+			Return;
+		EndBody.
+
+		Function: foo
+		Parameter: a,n
+		Body:
+			If a[0] == 8 Then printStr("8");
+			Else 
+				Var: i,temp[100];
+				printStr(string_of_int(a[0]));
+
+				For (i=1,i<n,i+1) Do
+					temp[i-1] = a[i] * 2 + 1;
+				EndFor.
+			EndIf.
+			Return foo(temp,n-1);
+		EndBody.
+		

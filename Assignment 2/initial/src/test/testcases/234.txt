@@ -1,0 +1,8 @@
+
+        Function: df 
+        Parameter: n 
+        Body: 
+            Var : a,b,c ;
+            c = a[a+3];
+        EndBody.
+        

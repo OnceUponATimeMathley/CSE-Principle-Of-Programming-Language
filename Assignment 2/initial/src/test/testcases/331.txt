@@ -1,0 +1,9 @@
+
+        Function: main
+        Body:
+            If "" Then
+            in = 1223 - 4234 +. 432 || !False;
+            inp = {123, 435, 423} * in;
+            EndIf.
+        EndBody.
+        

@@ -1,0 +1,7 @@
+
+        Function: test
+        Body:
+            Var: flag;
+            flag = (True != 123) + !3 * (False && kj % 123 <. f());
+            praaa(--------.-.-(!123 == kk * 12 - 3)||False + !!!!!!9==4);
+        EndBody.

@@ -1,0 +1,11 @@
+
+		Var: a,b,c=3,d,e,stringlit = 5;
+		Function: main
+		Body:
+			Var: x = 10,i;
+			For (i = x, i > 0, i - 1) Do
+				x = (x*0.5 + i * random());
+			EndFor.
+			Return x;
+		EndBody.
+		

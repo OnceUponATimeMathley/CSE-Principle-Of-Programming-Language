@@ -1,0 +1,18 @@
+
+		Function: main
+		Body:
+			Var: arr[10],i;
+			arr = split(read()," ");
+			n = length(arr);
+			For (i=0, i<n, i+1) Do
+				printStrLn(arr[i]);
+			EndFor.
+		EndBody.
+		Function: split
+		Parameter: str,sep
+		Body:
+			Var: x[10];
+			x[0] = 1;
+			Return x;
+		EndBody.
+		

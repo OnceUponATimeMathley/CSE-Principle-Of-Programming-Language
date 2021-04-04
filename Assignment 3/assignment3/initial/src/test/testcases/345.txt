@@ -1,0 +1,13 @@
+Var: x;
+        Function: test
+        Body:
+            While True Do
+                v = receive(socket, max_len);
+                If v Then
+                    handle();
+                Else
+                    raise(error("failed"));
+                EndIf.
+            EndWhile.
+        EndBody.
+        

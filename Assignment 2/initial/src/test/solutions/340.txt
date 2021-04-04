@@ -1,0 +1,1 @@
+Program([VarDecl(Id(ar),[19,2,23]),FuncDecl(Id(ppl)[VarDecl(Id(threshold))],([][If(BinaryOp(>=,Id(score),Id(threshold)),[],[Return(StringLiteral(Pass))])Else([],[Return(StringLiteral(Again))]),Return(Id(ppl))]))])

@@ -1,0 +1,8 @@
+
+        Function: poverty 
+        Parameter: n
+        Body: 
+            xee = 10;
+            fact (xee);
+        EndBody.
+        

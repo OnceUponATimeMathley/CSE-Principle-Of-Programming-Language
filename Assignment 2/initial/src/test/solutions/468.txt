@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][Assign(Id(a),StringLiteral(abcdef)),Assign(Id(b),StringLiteral(Hello World)),Assign(Id(c),StringLiteral(123: '" def '" )),Assign(Id(d),StringLiteral(\t\b\n))]))])

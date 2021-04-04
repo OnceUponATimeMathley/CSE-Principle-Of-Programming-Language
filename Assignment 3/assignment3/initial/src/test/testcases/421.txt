@@ -1,0 +1,12 @@
+
+        Var: x[10][10], m, k;
+        Function: test
+        Body:
+            Return m + k;
+        EndBody.
+        Function: main
+        Parameter: flag
+        Body:
+            test();
+        EndBody.
+        

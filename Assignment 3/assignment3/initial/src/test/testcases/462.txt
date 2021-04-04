@@ -1,0 +1,23 @@
+
+        Var: x[10];
+        Function: test
+        Parameter: flag
+        Body:
+            Var: s, x, y, t;
+            s = read();
+            x = length(s) * 2;
+            t = length(flag);
+            Return flag;
+        EndBody.
+        Function: length
+        Parameter: s
+        Body:
+            Return 100;
+        EndBody.
+        Function: main
+        Body:
+            Var: z;
+            z = test(x[0]);
+            x[0] = t;
+        EndBody.
+        

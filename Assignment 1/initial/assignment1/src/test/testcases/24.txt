@@ -1,0 +1,10 @@
+
+		Function: recur_fibo
+		Parameter: n
+		Body:
+			If n<2 Then 
+				Return 1;
+			EndIf.
+			Return recur_fibo(n-1) + recur_fibo(n-2);
+		EndBody.
+		

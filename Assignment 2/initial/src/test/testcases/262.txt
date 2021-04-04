@@ -1,0 +1,9 @@
+Function: bar
+        Parameter: nf
+        Body: 
+            While(2) Do
+                While(!x2) Do
+                    x2 = True;
+                EndWhile.
+            EndWhile.
+        EndBody.

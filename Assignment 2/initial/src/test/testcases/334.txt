@@ -1,0 +1,13 @@
+
+		Var: x = 1,y= "abc",z[1];
+		Var: temp = 0;
+		Function: main
+		Parameter: x,y,arr[10][12]
+		Body:
+			Var: x = 1;
+			x = True && 1;
+			Break;
+			foo(1);
+			Return x + 1;
+		EndBody.
+		

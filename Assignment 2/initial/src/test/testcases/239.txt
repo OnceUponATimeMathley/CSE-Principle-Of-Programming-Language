@@ -1,0 +1,9 @@
+ Function: dsa 
+        Parameter: n 
+        Body: 
+            If !a Then b = 33; 
+            ElseIf c < 32 Then hd = 221;
+            Else c=321; 
+            EndIf. 
+        EndBody.
+        

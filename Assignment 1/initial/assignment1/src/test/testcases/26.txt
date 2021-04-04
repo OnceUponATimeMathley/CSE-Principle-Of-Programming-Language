@@ -1,0 +1,4 @@
+
+		** Empty array **
+		Var: a[2] = {};
+		

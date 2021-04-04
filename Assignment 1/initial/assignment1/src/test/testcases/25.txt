@@ -1,0 +1,12 @@
+
+		Function: main
+		Body:
+			**test Do While statement**
+			Var: x = 10,y,i = 0;
+			Do
+				print(i);
+				i = i + 1;
+			While (i < x)
+			EndDo.
+		EndBody.
+		

@@ -1,0 +1,7 @@
+Function: foo 
+        Parameter: n
+        Body: 
+        For (i = 0, i < 10, 2) Do
+            writeln(i);
+        EndFor.
+        EndBody.

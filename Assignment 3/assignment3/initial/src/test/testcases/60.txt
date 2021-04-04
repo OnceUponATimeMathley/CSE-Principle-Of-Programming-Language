@@ -1,0 +1,11 @@
+
+		Function: main
+		Parameter: x
+		Body:
+			Var: x,y,z;
+			If (x > 10) Then printStr("x>10");
+			ElseIf (y>10) Then printStr("y>10 & x<10");
+			EndIf.
+			foo()[z] = y;
+		EndBody.
+		

@@ -1,0 +1,10 @@
+
+		Function: main
+		Body:
+			Var: str;
+			print("Nhap chuoi: ");
+			str = read();
+			print("Chuoi da nhap: ");
+			printLn(str);
+		EndBody.
+		

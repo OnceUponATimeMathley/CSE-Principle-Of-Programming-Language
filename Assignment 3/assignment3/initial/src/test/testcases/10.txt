@@ -1,0 +1,18 @@
+
+		Function: fibo
+		Parameter: n
+		Body:
+			Var: fibo_list[100],i;
+
+			If n<2 Then 
+				Return 1;
+			EndIf.
+
+			fibo_list[0] = 1;
+			fibo_list[1] = 1;
+			For (i = 2, i<=n, i+1) Do
+				fibo_list[i] = fibo_list[i-1] + fibo_list[i-2];
+			EndFor.
+			Return fibo_list[n];
+		EndBody.
+		

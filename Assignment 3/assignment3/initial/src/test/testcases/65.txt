@@ -1,0 +1,14 @@
+
+		Var: x = 10,y = 1, z = 2;
+		Function: main
+		Body:
+			Var: x = 10;
+			Return foo(x);
+		EndBody.
+
+		Function: foo
+		Parameter: n
+		Body:
+			Return n + x;
+		EndBody.
+		

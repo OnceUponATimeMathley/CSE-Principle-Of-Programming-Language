@@ -1,0 +1,16 @@
+
+        Function: sortArr
+        Parameter: arr[0o100], left, right
+        Body:
+            For(i = left + 1, i <= right, 1) Do
+                Var: temp, j;
+                temp = arr[i];
+                j = i - 1;
+                While (j >= left) && (arr[j] > temp) Do
+                    arr[j + 1] = arr[j];
+                    j = j - 1;
+                EndWhile.
+                arr[j + 1] = temple;
+            EndFor.
+        EndBody.
+        

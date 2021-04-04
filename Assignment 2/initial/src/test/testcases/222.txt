@@ -1,0 +1,12 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            While a>b Do
+                If b>a Then
+                    a = b;
+                EndIf.
+            EndWhile.                
+        EndBody.
+        

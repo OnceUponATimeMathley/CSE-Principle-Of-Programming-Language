@@ -1,0 +1,7 @@
+
+Function: main
+    Body:
+        a = 0;
+        a = 123456789;
+        a = 999999999;
+    EndBody.

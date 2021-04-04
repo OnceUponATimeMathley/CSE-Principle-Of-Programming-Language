@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Assign(Id(v),CallExpr(Id(f),[Id(flag)]))

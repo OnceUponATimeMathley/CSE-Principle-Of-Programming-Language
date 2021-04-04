@@ -1,0 +1,8 @@
+
+        Var : abceed = 112345;
+        Function: dqw
+        Parameter: ewr
+        Body:
+            v = a>b;
+        EndBody.
+        

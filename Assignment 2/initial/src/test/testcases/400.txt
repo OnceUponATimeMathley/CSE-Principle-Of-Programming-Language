@@ -1,0 +1,31 @@
+
+        Var: a, b = 120, c = "123", d[10] = {1,2,5};
+        Var: f = {12, 3,4, {{}}};
+        Function: test_
+        Parameter: flag
+        Body:
+            If flag[0] && 1 Then
+                For(i = 0, i < upp(upp(i)), s()) Do
+                    update(f, i, d[i]);
+                EndFor.
+            ElseIf flag[2] && 2 Then
+                Return;
+            ElseIf all(flag, {0,1,2,3,4,5,6}) Then
+                test_(flag[i]);
+            ElseIf !flag Then
+                Break;
+            ElseIf is___(flag) Then
+                flag = flag * ad - 123 + {1,2} % "124";
+            Else
+                println("da");
+                delete(flag);
+            EndIf.
+        EndBody.
+        Function: main
+        Parameter: flags[100], len
+        Body:
+            For(i = 0, i < len, 1) Do
+                test_(flags[i]);
+            EndFor.
+            Return 0;
+        EndBody.

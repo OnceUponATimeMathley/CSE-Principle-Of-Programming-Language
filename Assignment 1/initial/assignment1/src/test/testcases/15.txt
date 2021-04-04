@@ -1,0 +1,7 @@
+
+		Function: main
+		print("Hello world");
+		Begin:
+			** Statement is not inside Begin **
+		EndBody.
+		

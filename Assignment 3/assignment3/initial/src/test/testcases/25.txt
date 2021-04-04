@@ -1,0 +1,19 @@
+
+        Var: a, b[4][2], c;
+        Function: func
+        Body:
+            b[0][1] = 2;
+            Return b;
+        EndBody.
+        Function: test
+        Body:
+            func()[2][1] = 14;
+        EndBody.
+        Function: main
+        Body:
+            func()[3][1] = 0;
+            b[0][0] = c;
+            test();
+            func()[c][2 + 2 * 1] = b[0][c];
+        EndBody.
+        

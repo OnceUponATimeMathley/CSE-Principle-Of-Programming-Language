@@ -1,0 +1,6 @@
+
+		Var: x = 1;
+		Var: y,z,t,arr[10] = {1,2,3};
+		Var: abc = "This is legal string",x;
+		Var: helloworld;
+		

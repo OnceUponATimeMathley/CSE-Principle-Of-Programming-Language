@@ -1,0 +1,10 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: x=5, y,z="Boku no pico the best";
+            function1();
+            call(z, x);
+        EndBody.
+        

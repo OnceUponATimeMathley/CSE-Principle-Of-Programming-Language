@@ -1,0 +1,1 @@
+Program([VarDecl(Id(x)),FuncDecl(Id(test)[],([][Assign(Id(f),UnaryOp(-,FloatLiteral(1234.0))),Dowhile([],[Dowhile([],[If(Id(k),[],[If(Id(k),[],[])Else([],[])])Else([],[])],BooleanLiteral(false))],BinaryOp(<,Id(f),IntLiteral(10)))]))])

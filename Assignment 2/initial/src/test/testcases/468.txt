@@ -1,0 +1,8 @@
+
+Function: main
+    Body:
+        a = "abcdef";
+        b = "Hello World";
+        c = "123: '" def '" ";
+        d = "\t\b\n";
+    EndBody.

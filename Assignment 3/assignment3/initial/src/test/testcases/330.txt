@@ -1,0 +1,6 @@
+
+        Function: main
+        Body:
+            inp = 123 * daf[g132[423][2] * 132 + {13}];
+        EndBody.
+        

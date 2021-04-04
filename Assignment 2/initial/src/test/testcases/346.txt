@@ -1,0 +1,12 @@
+
+        Var: b = False, arr[0o10] = {120, 0x123};
+        Function: test
+        Body:
+            Do
+                While True Do
+                    lock();
+                    send(i + 1);
+                    unlock();
+                EndWhile.
+            While True EndDo.
+        EndBody.

@@ -1,0 +1,27 @@
+
+        Var: a, b[2][12], c[2][12];
+        Function: foo
+        Body:
+            c[0][1] = "s";
+            Return c;
+        EndBody.
+        Function: f
+        Body:
+            Var: flag, c;
+            If c Then
+                Return 1;
+            ElseIf c Then
+                Return b[0][2 + 9];
+            EndIf.
+            Return foo()[2+3][1];
+        EndBody.
+        Function: main
+        Body:
+           a = f();
+        EndBody.
+
+        Function: t
+        Body:
+            c[0][11] = "string";
+        EndBody.
+        

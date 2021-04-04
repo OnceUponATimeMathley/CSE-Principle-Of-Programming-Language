@@ -1,0 +1,18 @@
+
+		Var: a = {1,**HELLO TUI NE**2,3,"abc"}, b**HELLO TUI NE**,c,d**HELLO TUI NE**[**HELLO TUI NE**100] = **HELLO TUI NE**{};
+		Function**HELLO TUI NE**: main
+		Parameter: **HELLO TUI NE** arr
+		Body:
+			**comment everywhere** 
+			Var **HELLO TUI NE** : x;
+			x = **HELLO TUI NE** int_of_string(read());
+			y = int_of_string**HELLO TUI NE**(read());
+			z = int_of_string(**HELLO TUI NE**read());
+			If (**HELLO TUI NE**x >**HELLO TUI NE** 5) Then**HELLO TUI NE**
+				printStr**HELLO TUI NE**(y)**HELLO TUI NE**;
+			ElseIf **HELLO TUI NE** (x < 3) Then 
+				printStr(z);
+			EndIf.
+			**HELLO TUI NE****HELLO TUI NE****HELLO TUI NE****HELLO TUI NE**
+		EndBody.
+		

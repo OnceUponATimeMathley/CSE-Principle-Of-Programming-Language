@@ -1,0 +1,16 @@
+Function: dsa 
+        Parameter: n
+        Body: 
+            While((x > a) && (x < b)) Do
+                While((x >= b) || (x >= a)) Do
+                    While((x > c * b) && (x < b*b)) Do
+                        x = x - 1;
+                        c = 2 * c;
+                        While( !False ) Do
+                            a = a * 1;
+                            For (i = 0, i != 5, i*1) Do x=6; EndFor.
+                        EndWhile.
+                    EndWhile.
+                EndWhile.
+            EndWhile.
+        EndBody.

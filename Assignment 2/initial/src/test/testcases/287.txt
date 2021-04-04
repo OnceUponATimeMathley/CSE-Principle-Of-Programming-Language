@@ -1,0 +1,11 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            a=a+b;
+	c=c-e;
+	rew();
+
+        EndBody.
+        

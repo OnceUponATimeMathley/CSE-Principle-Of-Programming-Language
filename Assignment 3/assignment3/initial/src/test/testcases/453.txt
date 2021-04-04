@@ -1,0 +1,8 @@
+
+        Var: a, b, arr[3][2];
+        Function: main
+        Parameter: x, y, main
+        Body:
+            a[2][3] = b * y - x % main;
+        EndBody.
+        

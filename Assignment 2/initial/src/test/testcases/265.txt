@@ -1,0 +1,7 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            Do
+            While(x < 10)
+            EndDo.
+        EndBody.

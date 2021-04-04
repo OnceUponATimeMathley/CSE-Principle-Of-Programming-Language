@@ -1,0 +1,15 @@
+
+        Var: x[10][10];
+        Function: main
+        Body:
+            Var: k;
+            If 1 == f()[1][2] Then
+            ElseIf x[0][0] Then
+            EndIf.
+        EndBody.
+        Function: f
+        Body:
+            Var: x[10][10];
+            Return x;
+        EndBody.
+        

@@ -1,0 +1,14 @@
+
+		Function: main
+		Body:
+			Var: x,y,z;
+			x = int_of_string(read());
+			y = int_of_string(read());
+			z = int_of_string(read());
+			If (x > 5) Then
+				printStr(y);
+			ElseIf (x < 3) Then 
+				**missing expr**
+			EndIf.
+		EndBody.
+		

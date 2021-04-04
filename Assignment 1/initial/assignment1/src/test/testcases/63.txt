@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			** While statement missing arguments **
+			While () Do
+				**Do something**
+		EndWhile.
+		

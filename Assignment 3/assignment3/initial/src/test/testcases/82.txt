@@ -1,0 +1,34 @@
+
+		Function: close
+		Parameter: f
+		Body:
+		EndBody.
+
+		Function: main
+		Body:
+			Var: fi,fo,in;
+			fi = open("input.txt","r");
+			in = fread(fi);
+			close(fi);
+
+			fo = open("output.txt","w");
+			fwrite(fo,in);
+			close(fo);
+		EndBody.
+
+		Function: open
+		Parameter: x,y
+		Body:
+			Return 1;
+		EndBody.
+
+		Function: fread
+		Parameter: x
+		Body:
+			Return x;
+		EndBody.
+
+		Function: fwrite
+		Body:
+		EndBody.
+		

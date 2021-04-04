@@ -1,0 +1,7 @@
+ 
+        Function: foo 
+        Parameter: n 
+        Body: 
+            c =rmit * 5; 
+        EndBody.
+        

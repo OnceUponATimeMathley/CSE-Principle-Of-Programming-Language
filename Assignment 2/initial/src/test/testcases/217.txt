@@ -1,0 +1,9 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: x={1,3,True,3}, y={{1,3}, {5, 9}};
+            Return x[2]+y[0][2]; 
+        EndBody.
+        

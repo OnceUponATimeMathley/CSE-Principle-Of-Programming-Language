@@ -1,0 +1,11 @@
+
+        Function: test
+        Body:
+            print();
+        EndBody.
+        Function: fn1
+        Body: runfn(); EndBody.
+        Function: fn2
+        Body: EndBody.
+        Function: main
+        Body: Return test() + fn1() + fn2(); EndBody.

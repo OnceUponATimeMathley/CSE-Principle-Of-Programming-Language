@@ -1,0 +1,11 @@
+
+        Function: mainMax
+        Body:
+            Do
+                Var: r = 12;
+                k = -.-k;
+                a[2][3 + 3] = foo(2 + k, k, arr[0]);
+                m = a[1][2 + f[2]];
+            While x == 0 EndDo.
+        EndBody.
+        

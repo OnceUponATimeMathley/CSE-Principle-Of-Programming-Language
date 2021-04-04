@@ -1,0 +1,19 @@
+
+        Function: print
+        Parameter: x
+        Body:
+            Return;
+        EndBody.
+        Function: foo
+        Body:
+            Var: value = 12345;
+            Return value;
+        EndBody.
+        Function: main
+        Parameter: x, y
+        Body:
+            print(foo);
+            x = foo();
+            Return 0;
+        EndBody.
+        

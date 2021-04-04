@@ -1,0 +1,10 @@
+
+        Function: mean
+        Parameter: arr
+        Body:
+            If len(arr) == 0 Then Return; EndIf.
+            m = mean(arr, axis, {1, 2, 3, 4, 5});
+            Do
+                mean(arr, 1, n, len(arr) - 1);
+            While !((flag == False) || (flag != 23) * (flag <=. 123)) EndDo.
+        EndBody.

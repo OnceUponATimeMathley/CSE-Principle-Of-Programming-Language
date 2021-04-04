@@ -1,0 +1,5 @@
+
+Function: main
+    Body:
+        a = 1e1 + 1.1e1 + 1.e1 + 1E1 + 1.1E1 + 1.E1;
+    EndBody.

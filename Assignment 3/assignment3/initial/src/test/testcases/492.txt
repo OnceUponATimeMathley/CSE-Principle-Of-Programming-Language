@@ -1,0 +1,14 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            x = f(f(b[2])[2] * x \ 10)[2] * a[1];
+        EndBody.
+        Function: f
+        Parameter: k
+        Body:
+            b[1] = "dasd";
+            Return a;
+        EndBody.
+        

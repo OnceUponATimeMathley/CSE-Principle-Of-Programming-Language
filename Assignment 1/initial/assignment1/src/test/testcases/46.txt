@@ -1,0 +1,9 @@
+
+		Function: main
+		Body:
+			** Invalid while statement**
+			While ( i = 0, i < 10, i + 1) Do
+				** Do something **
+			EndWhile.
+		EndBody.
+		

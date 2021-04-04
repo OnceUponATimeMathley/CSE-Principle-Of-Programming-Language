@@ -1,0 +1,5 @@
+
+        Function: test
+        Body:
+            Return "dasd" * asd  - {1,2,3} || 82 == False;
+        EndBody.

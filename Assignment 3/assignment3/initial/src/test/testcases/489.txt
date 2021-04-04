@@ -1,0 +1,15 @@
+
+        Var: x, a[10], b[5];
+        Function: main
+        Parameter: x
+        Body:
+            Do
+                printStrLn(b[2]);
+            While f()[2] EndDo.
+        EndBody.
+        Function: f
+        Body:
+            b[1] = "dasd";
+            Return a;
+        EndBody.
+        

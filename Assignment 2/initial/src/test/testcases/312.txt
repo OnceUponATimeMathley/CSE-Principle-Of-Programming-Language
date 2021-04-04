@@ -1,0 +1,11 @@
+
+        Var: a = 5, n[10], s = False;
+        Var: bb[2][3] = {{2, 3, 4}, {4, 5, 6}};
+        Function: main
+        Body:
+            flag = 2;
+            a = !!!!True || dkd;
+            Return fool() + uuuuu(2 + 3, f[2][4]) && dk;
+
+        EndBody.
+        

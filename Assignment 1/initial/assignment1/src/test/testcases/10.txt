@@ -1,0 +1,8 @@
+
+		Var: x = 1; 
+		Function: main 
+		Body: 
+			s = "abcdef"; 
+			print("Hello World"); 
+		EndBody.
+		

@@ -1,0 +1,10 @@
+
+Function: main
+    Body:
+        If True Then
+        Else
+            Var: a, b;
+            foo1();
+            foo2();
+        EndIf.
+    EndBody.

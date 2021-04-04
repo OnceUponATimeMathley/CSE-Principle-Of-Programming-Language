@@ -1,0 +1,19 @@
+
+        Var: x, y;
+        Function: main
+        Body:
+            Var: k, t, z;
+            While x Do
+                If x Then
+                    y = 2;
+                    Break;
+                ElseIf k == t Then
+                    z = 20;
+                    Continue;
+                Else
+                    Break;
+                EndIf.
+                t = y + z;
+            EndWhile.
+        EndBody.
+        

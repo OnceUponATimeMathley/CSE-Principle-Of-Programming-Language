@@ -1,0 +1,9 @@
+
+        Function: is_even
+        Parameter: x
+        Body:
+            If x && 1 == 0 Then
+                Return True;
+            EndIf.
+            Return False;
+        EndBody.

@@ -1,0 +1,9 @@
+
+		Function: main
+		Body:
+			Var: arr[20],n,x;
+			For (x = 1, x<10, x + 1) Do
+				arr[((x*2+7)*9)%20] = random(0,1) + n;
+			EndFor.
+		EndBody.
+		

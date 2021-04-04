@@ -1,0 +1,8 @@
+
+        Function: main
+        Parameter: x
+        Body:
+            Var: y, z;
+            y = x && (x == z);
+        EndBody.
+        

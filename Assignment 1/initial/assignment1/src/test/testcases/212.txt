@@ -1,0 +1,6 @@
+ Function: foo 
+        Parameter: n , t[1]
+        Body: 
+            If !a Then b = 0; EndIf.
+        EndBody.
+        

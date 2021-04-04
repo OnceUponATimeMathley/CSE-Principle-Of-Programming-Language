@@ -1,0 +1,11 @@
+
+		Function: main
+		Body:
+			** test non-associated operator **
+			Var: x,y;
+			x = 1 + (2 + 3) - 4 * 5;  ** OK **
+			x = 1 + 2 + 3 - 4 * 5;    ** OK **
+			y = (1 > 2) < 2;          ** OK **
+			**y = 1 > 2 < 2;		 Fail **	
+		EndBody.
+		

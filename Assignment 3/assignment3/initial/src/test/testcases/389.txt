@@ -1,0 +1,9 @@
+
+        Function: no_ideas
+        Body:
+            If x % 2 == y % f() Then
+                print(a[2]);
+            ElseIf f() % g(f()) > f() * 12 - f[123] Then
+            ElseIf x % 12 == 1 Then
+            EndIf.
+        EndBody.

@@ -1,0 +1,15 @@
+
+		Function: main
+		Body:
+			** Do something with index **
+			Var: i,k,arr[5] = {8,2,5,4,5};
+			k = sort(arr)[0];
+			i = sort(sort(arr))[2][3];
+		EndBody.
+
+		Function: sort
+		Parameter: arr
+		Body:
+			** do something **
+		EndBody.
+		

@@ -1,0 +1,25 @@
+
+        Var: x[10], y, m;
+        Function: main
+        Body:
+            x[0] = test() +. y;
+        EndBody.
+        Function: test
+        Body:
+            Var: a, b, c;
+            For (a = int_of_float(test()), b && c, m) Do
+                Var: z, y, x;
+                If z == y Then
+                    Break;
+                ElseIf x Then
+                    Continue;
+                ElseIf c Then
+                    Return float_of_int(a);
+                Else
+                    Return 1.2;
+                EndIf.
+                b = True;
+            EndFor.
+            Return float_of_int(m);
+        EndBody.
+        

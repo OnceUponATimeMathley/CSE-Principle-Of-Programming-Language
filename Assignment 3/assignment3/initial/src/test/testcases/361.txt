@@ -1,0 +1,25 @@
+
+        Function: test
+        Parameter: arr[0x1000], low, high
+        Body:
+            Var: min, max;
+            For(i = 1, i < high, 1) Do
+                For(j = 0, j < i, 1) Do
+                    If arr[j] < min Then
+                        min = arr[j];
+                    ElseIf arr[j] > max Then
+                        max = arr[j];
+                    Else
+                        print("************");
+                        print("NO OPERATION");
+                        print("************");
+                    EndIf.
+                    While min =/= max Do
+                        Var: temp;
+                        For(i = low, i < high, 1) Do
+                            println(arr[i]);
+                        EndFor.
+                    EndWhile.
+                EndFor.
+            EndFor.
+        EndBody.

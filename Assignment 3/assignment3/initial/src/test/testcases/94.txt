@@ -1,0 +1,12 @@
+
+		Function: main
+		Body:
+			Var: b = False;
+			Var: i,n = 0;
+			n = int_of_string(read());
+			For (i=0,i<n,i+1) Do
+				b = (!b) && (b||b);
+			EndFor.
+			printStr(string_of_bool(b));
+		EndBody.
+		

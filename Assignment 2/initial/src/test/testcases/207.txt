@@ -1,0 +1,14 @@
+
+        Var: t = 0;
+
+        Function: mk
+        Parameter: x
+        Body:
+            If n == 0 Then p = 0;
+            ElseIf n == 1 Then p = 1;
+            ElseIf n == 2 Then p = 3;
+            Else p = n+3;
+            EndIf.
+            Return 0;
+        EndBody.
+        

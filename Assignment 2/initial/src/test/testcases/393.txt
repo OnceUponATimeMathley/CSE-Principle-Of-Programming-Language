@@ -1,0 +1,8 @@
+
+        Function: blink
+        Body:
+            sys_call(3 * 2, sys(delete("path")));
+            print();
+            function();
+            If "" Then EndIf.
+        EndBody.

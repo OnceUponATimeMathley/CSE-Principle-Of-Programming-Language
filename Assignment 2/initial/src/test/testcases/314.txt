@@ -1,0 +1,21 @@
+
+        Var: s = "daofjsdg";
+        Function: main
+        Body:
+            Var: arr[26];
+            f = fact(n) % 0O10;
+            While (i < length(s)) Do
+                arr[lower(s[i]) - 97] =  arr[lower(s[i]) - 97] +. 1.e0;
+            EndWhile.
+            max_length = max(arr);
+        EndBody.
+        Function: sum
+        Parameter: n
+        Body:
+            p = 1.;
+            For (i = 1, i < n, 1) Do
+                p = p *. i;
+            EndFor.
+            Return i;
+        EndBody.
+        

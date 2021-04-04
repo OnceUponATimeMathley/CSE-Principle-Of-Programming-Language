@@ -1,0 +1,1 @@
+Type Mismatch In Statement: Assign(ArrayCell(CallExpr(Id(foo),[CallExpr(Id(float_to_int),[Id(x)])]),[IntLiteral(2)]),CallExpr(Id(string_of_int),[ArrayCell(Id(b),[Id(x)])]))

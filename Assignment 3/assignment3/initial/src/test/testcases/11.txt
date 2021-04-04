@@ -1,0 +1,20 @@
+
+        Var: a, b[2][4][2];
+        Function: main
+        Body:
+            Var: temp;
+           printStrLn(a);
+           Do
+                If bool_of_string(a) Then
+                    Break;
+                    test(a);
+                EndIf.
+            While b[0][1][1] EndDo.
+        EndBody.
+        Function: test
+        Parameter: p
+        Body:
+            printStr(read());
+            Return;
+        EndBody.
+        

@@ -1,0 +1,10 @@
+
+Function: main
+    Body:
+        Do
+            Var: a, b;
+            foo1();
+            foo2();
+        While True
+        EndDo.
+    EndBody.

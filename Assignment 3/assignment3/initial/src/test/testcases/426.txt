@@ -1,0 +1,25 @@
+
+        Var: x, y = "s", t, arr[10];
+        Function: main
+        Body:
+
+        EndBody.
+        Function: foo
+        Parameter: x
+        Body:
+            Var: arr[2];
+            If x Then
+                Return int_of_string(string_of_bool(x));
+            ElseIf f(x) Then
+                Return foo(bool_of_string(arr[0]));
+            EndIf.
+        EndBody.
+        Function: f
+        Parameter: x
+        Body:
+            If bool_of_string(string_of_bool(x)) Then
+                Return x;
+            EndIf.
+            Return True;
+        EndBody.
+        

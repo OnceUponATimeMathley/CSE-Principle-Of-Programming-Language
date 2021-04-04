@@ -1,0 +1,6 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            x = 10;
+            fact (x);
+        EndBody.

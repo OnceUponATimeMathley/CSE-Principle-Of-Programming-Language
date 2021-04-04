@@ -1,0 +1,41 @@
+
+Var: a, b = "abc";
+Var: c = 1.;
+Function: main
+    Body:
+        While a Do
+            Var: a = True, b;
+            Var: c = {{{1}}};
+            Do
+                Var: a, b;
+                Var: c = {{1}, {2}};
+                For (i = 10, i < 10, --i)
+                Do
+                    Var: a = 0, b;
+                    Var: c;
+                    If c Then
+                        Var: a, b;
+                        Var: c;
+                        foo();
+                    ElseIf d Then
+                        Var: a, b;
+                        Var: c;
+                        a = foo()[foo(foo())];
+                    Else
+                        Var: a, b;
+                        Var: c;
+                        While abcd Do
+                            Var: a, b = 2;
+                            Var: a[1][2] = {1, 2};
+                            Break;
+                        EndWhile.
+                        Return;
+                    EndIf.
+                EndFor.
+                Continue;
+            While b
+            EndDo.
+            Return 1;
+        EndWhile.
+        Return 0;
+    EndBody.

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][Assign(Id(a),ArrayLiteral(ArrayLiteral(ArrayLiteral(ArrayLiteral(IntLiteral(1)))),ArrayLiteral(ArrayLiteral(IntLiteral(1))),ArrayLiteral(IntLiteral(1)),IntLiteral(1)))]))])

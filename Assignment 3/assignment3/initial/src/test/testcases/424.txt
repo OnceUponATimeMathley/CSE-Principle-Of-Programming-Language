@@ -1,0 +1,23 @@
+
+        Function: f1
+        Parameter: x
+        Body:
+            Return {0};
+        EndBody.
+        Function: main
+        Body:
+            Var: a[1];
+            Var: n;
+            f1(f2(f3(n)))[0] = a[f3(f2(n))];
+        EndBody.
+        Function: f2
+        Parameter: x
+        Body:
+            Return 0;
+        EndBody.
+        Function: f3
+        Parameter: x
+        Body:
+            Return 0;
+        EndBody.
+        

@@ -1,0 +1,20 @@
+
+		**overload**
+		Function: foo
+		Parameter: x
+		Body:
+			Return x*x;
+		EndBody.
+
+		Function: foo
+		Parameter: x,y
+		Body:
+			Return x+y;
+		EndBody.
+
+		Function: main
+		Body:
+			printStr(string_of_int(foo(10)));
+			printStr(string_of_int(foo(10,15)));
+		EndBody.
+		

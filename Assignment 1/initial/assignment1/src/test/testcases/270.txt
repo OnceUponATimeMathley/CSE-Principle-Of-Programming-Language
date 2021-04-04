@@ -1,0 +1,8 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            Do  
+                Return foo(x,y);
+            While (True)
+            EndDo.
+        EndBody.

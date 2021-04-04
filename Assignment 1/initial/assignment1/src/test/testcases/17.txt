@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			** IS THIS TRUE????????? **
+			print("Local var declare is not the first line before \'Body:\'");
+			Var: a,b=9,c;
+		EndBody.
+		

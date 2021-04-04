@@ -1,0 +1,19 @@
+
+        Var: x, a, b;
+        Function: main
+        Parameter: x
+        Body:
+            Var: k;
+            k = foo(4 * a - b, x && False) && k;
+        EndBody.
+        Function: foo
+        Parameter: a, b
+        Body:
+            test();
+            Return x;
+        EndBody.
+        Function: test
+        Body:
+            x = test();
+        EndBody.
+        

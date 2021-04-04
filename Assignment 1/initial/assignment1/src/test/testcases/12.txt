@@ -1,0 +1,12 @@
+
+		Function: main
+		Parameter: a,b,c
+		Body:
+			a = a + 1; **Comment**
+			print(a);
+			If (a>0) Then print("a>0");
+				ElseIf a>-5 Then print("a>-5");
+			Else print("a<=-5");
+			EndIf.
+		EndBody.
+		

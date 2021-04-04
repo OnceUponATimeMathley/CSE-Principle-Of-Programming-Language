@@ -1,0 +1,25 @@
+
+		Function: sort
+		Parameter: a,n
+		Body:
+			Var: i,j;
+			For (i = 0, i < n-1, i + 1) Do
+				For (j = i + 1, j < n, j + 1 ) Do
+					If a[i] > a[j] Then 
+						Var: t;
+						t = a[i];
+						a[i] = a[j];
+						a[j] = t;
+					EndIf.
+				EndFor.
+			EndFor.
+			Return 1;
+		EndBody.
+
+		Function: main
+		Body:
+			Var: arr[10] = {1,2,0,4,3,5,7,4,8,9};
+			sort(arr);
+		EndBody.
+
+		

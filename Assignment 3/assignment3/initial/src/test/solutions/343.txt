@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(fn)[],([][CallStmt(Id(f),[CallExpr(Id(f),[BinaryOp(+,IntLiteral(2),IntLiteral(2))])]),If(BinaryOp(==,Id(i),IntLiteral(0)),[],[If(BooleanLiteral(true),[],[If(Id(t),[],[])ElseIf(Id(con),[],[])ElseIf(Id(con),[],[])Else([],[])])Else([],[])])Else([],[])]))])

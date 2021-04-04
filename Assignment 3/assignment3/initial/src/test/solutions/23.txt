@@ -1,0 +1,1 @@
+Index Out Of Range: ArrayCell(CallExpr(Id(foo),[]),[BinaryOp(+,IntLiteral(2),IntLiteral(3)),IntLiteral(1)])

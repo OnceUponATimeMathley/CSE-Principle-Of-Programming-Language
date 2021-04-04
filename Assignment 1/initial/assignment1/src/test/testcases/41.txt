@@ -1,0 +1,16 @@
+
+		Function: main
+		Body:
+			Var: inp;
+			print("Nhap vao mot so: ");
+			inp = int_of_string(read());
+			out = predict(inp);
+			print(out);
+		EndBody.
+
+		Function: predict
+		Parameter: number
+		Body:
+			Return "Ban la nguoi thong minh";
+		EndBody.
+		

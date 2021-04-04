@@ -1,0 +1,19 @@
+
+        Var: a, b[2][2], c;
+        Function: test
+        Parameter: k
+        Body:
+            Do
+                test(1);
+            While k EndDo.
+        EndBody.
+        Function: main
+        Body:
+           b[f()][f()] = 123;
+        EndBody.
+        Function: f
+        Body:
+            Var: c[2][3];
+            Return 1;
+        EndBody.
+        

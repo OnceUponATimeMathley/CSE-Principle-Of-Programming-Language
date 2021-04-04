@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(main)[],([][Dowhile([VarDecl(Id(a)),VarDecl(Id(b))],[CallStmt(Id(foo1),[]),CallStmt(Id(foo2),[])],BooleanLiteral(true))]))])

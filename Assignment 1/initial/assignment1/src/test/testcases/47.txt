@@ -1,0 +1,9 @@
+
+		Function: main
+		Body:
+			** Invalid for statement **
+			For (i = 0, i < 10, i = i + 1) Do
+				** Do something **
+			EndFor.
+		EndBody.
+		

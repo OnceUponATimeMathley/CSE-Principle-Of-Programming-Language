@@ -1,0 +1,14 @@
+Var: x;
+        Function: symmetry
+        Body:
+            Var: str = "";
+            str = str(input());
+            For(i = 0, i < len(str) \. 2, 1) Do
+                If str[i] != str[len(str) - i - 1] Then
+                    Return False;
+                EndIf.
+            EndFor.
+            Return True;
+            Return;
+        EndBody.
+        

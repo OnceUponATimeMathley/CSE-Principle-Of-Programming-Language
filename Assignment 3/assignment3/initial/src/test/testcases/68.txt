@@ -1,0 +1,17 @@
+
+		Var: x = 2;
+		Function: main
+		Body:
+			Var: y = 10;
+			Var: x = 5;
+			y = foo(((foo(foo(x)))));
+			Return 0;
+		EndBody.
+
+		Function: foo
+		Parameter: x
+		Body:
+			Var: y = 3;
+			Return y*x;
+		EndBody.
+		

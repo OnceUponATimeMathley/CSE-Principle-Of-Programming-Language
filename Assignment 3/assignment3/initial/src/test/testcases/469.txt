@@ -1,0 +1,15 @@
+
+        Var: x[10];
+        Function: foo
+        Body:
+            x[2] = 2;
+            Return x;
+        EndBody.
+        Function: main
+        Body:
+            Var: a[10], t, z;
+            a[9] = t * z % x[1];
+            a[2] = foo()[2];
+            foo()[4] = 4.3;
+        EndBody.
+        

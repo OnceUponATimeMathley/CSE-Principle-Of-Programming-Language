@@ -1,0 +1,13 @@
+
+		Var: x = "init"; 
+		Function: main 
+		Parameter: x
+		Body: 
+			s = 0;
+			For (x = 1, x>1, 2) Do
+				s = s + foo(x);
+			EndFor. 
+			print("Solution: ");
+			print(s);
+		EndBody.
+		

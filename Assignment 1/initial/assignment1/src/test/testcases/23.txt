@@ -1,0 +1,17 @@
+
+		Function: main
+		Body:
+			**Don't care about position of Break and Continue**
+			Var: a = 10,b,c,i;
+			For (i = 0, i < a, i + 1 ) Do
+				If (b != 0) Then foo(c);
+				Else Break;		**valid**
+				EndIf.
+			EndFor.
+
+			If (i == a-1) Then Break;  **invalid**
+			Else Continue;			   **invalid**
+			EndIf.
+
+		EndBody.
+		

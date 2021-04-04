@@ -1,0 +1,14 @@
+
+        Var: a, b, arr[10][10], main;
+        Function: foo
+        Parameter: x, y
+        Body:
+            arr[0][2] = "PPL!!! hard!!!";
+            b = a * int_of_string(arr[1][2]);
+        EndBody.
+        Function: test
+        Parameter: m
+        Body:
+            Return arr[a + b][int_of_float(float_of_string(arr[1][0]))];
+        EndBody.
+        

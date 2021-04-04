@@ -1,0 +1,23 @@
+
+        Var: x, y;
+        Function: main
+        Body:
+            If x Then
+                If x Then
+                    Return 0;
+                EndIf.
+                If x Then
+                    Return y;
+                ElseIf x Then
+                    If x Then
+                        Return y;
+                    Else
+                        Return 0;
+                    EndIf.
+                EndIf.
+            Else
+                Return 1;
+            EndIf.
+            y = y * 2;
+        EndBody.
+        

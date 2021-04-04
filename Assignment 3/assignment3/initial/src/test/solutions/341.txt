@@ -1,0 +1,1 @@
+Program([FuncDecl(Id(dfff)[],([VarDecl(Id(s),[100])][While(UnaryOp(!,CallExpr(Id(empty),[Id(s)])),[],[CallStmt(Id(print),[CallExpr(Id(pop),[Id(s)])])]),While(UnaryOp(!,CallExpr(Id(full),[Id(s)])),[],[Assign(Id(s),CallExpr(Id(push),[Id(s),CallExpr(Id(vr),[])]))])]))])

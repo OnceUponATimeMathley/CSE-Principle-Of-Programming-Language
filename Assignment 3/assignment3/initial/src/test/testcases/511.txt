@@ -1,0 +1,16 @@
+
+        Var: x[10], y;
+        Function: main
+        Body:
+            Var: k;
+            k = -x[foo()] +- f();
+        EndBody.
+        Function: foo
+        Body:
+            Return y;
+        EndBody.
+        Function: f
+        Body:
+            Return float_of_int(x[0]);
+        EndBody.
+        

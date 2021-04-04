@@ -1,0 +1,6 @@
+
+        Var: x, y[1][3]={{{12,1}, {12., 12e3}},{23}, {13,32}};
+        Function: foo 
+        Parameter: n
+        Body: 
+        EndBody.

@@ -1,0 +1,14 @@
+
+		Function: main
+		Body:
+			Var: hp = 1000.0,i = 0;
+			While hp>0 Do
+				Var: dame;
+				dame = random();
+				hp = hp - dame;
+				printStr(string_of_int(i));
+				printStr(" Dame: ");
+				printStrLn(string_of_float(dame));
+			EndWhile.
+		EndBody.
+		

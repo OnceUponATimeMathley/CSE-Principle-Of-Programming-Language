@@ -1,0 +1,8 @@
+
+		Function: main
+		Body:
+			** invalid express **
+			x = 1 + 2 - 3; **OK**
+			x = * 2; 	   **Fail**
+		EndBody.
+		

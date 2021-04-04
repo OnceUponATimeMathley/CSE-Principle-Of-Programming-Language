@@ -1,0 +1,10 @@
+ Function: main
+                        Body:
+                        Var: a, b, c;
+                        a = False;
+                        b = True;
+                        r = False;
+                        c = a || b;
+                        a = (!(b && c)||!(a && c)||!(a&&b)); 
+                        EndBody.
+                    

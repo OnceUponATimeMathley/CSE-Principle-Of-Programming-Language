@@ -1,0 +1,5 @@
+Function: foo 
+        Parameter: n
+        Body: 
+            a =(foo(3) != foo(4))* 0.e2;
+        EndBody.

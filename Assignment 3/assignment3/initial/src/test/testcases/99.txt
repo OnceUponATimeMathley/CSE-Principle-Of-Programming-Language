@@ -1,0 +1,16 @@
+
+		Function: main
+		Parameter: x,y,z
+		Body:
+			Var: num;
+			num = int_of_string**HELLO TUI NE**(read());
+			If x > num Then
+				Return x;
+			ElseIf y > num Then
+				Return y;
+			ElseIf z > num Then
+				Return z;
+			EndIf.
+			Return -1;
+		EndBody.
+		

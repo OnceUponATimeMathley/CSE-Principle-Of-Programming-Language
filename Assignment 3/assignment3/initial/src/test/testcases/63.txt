@@ -1,0 +1,22 @@
+
+		Function: main
+		Parameter: arr[10][10]
+		Body:
+			Var: s,i,j;
+			printStr("Initial...");
+			s = 0;
+			For (i=0, i<10, i+1) Do
+				For (j=0, j<10, j+1) Do
+					arr[i][j] = random();
+				EndFor.
+			EndFor.
+
+			printStr("Done");
+			For (i=9, i>=0, i-1) Do
+				For (j=0, j<10, j+1) Do
+					printStr(string_of_int(arr[i][j]));
+					printStr(" ");
+				EndFor.
+			EndFor.
+		EndBody.
+		

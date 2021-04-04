@@ -1,0 +1,1 @@
+Type Cannot Be Inferred: Return(CallExpr(Id(f),[IntLiteral(2),Id(x)]))

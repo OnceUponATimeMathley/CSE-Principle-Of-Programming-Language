@@ -1,0 +1,11 @@
+
+		Function: main
+		Body:
+			** operators **
+			Var: arr[5] = {1,2,3,4,5}, i,j,k = True, l, m, n = "String";
+			x = 1 * 5 + 2 - 7 * arr[9 * i + j] \. 2.0 -. 1.0 && True || k;
+			x = i >=. j;
+			x = ! k;
+			foo(k,l,m,n,arr,100,"Arg",x);
+		EndBody.
+		

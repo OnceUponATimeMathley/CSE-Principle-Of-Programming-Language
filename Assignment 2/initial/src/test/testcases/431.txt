@@ -1,0 +1,6 @@
+
+Function: main
+    Body:
+        While True Do
+        EndWhile.
+    EndBody.

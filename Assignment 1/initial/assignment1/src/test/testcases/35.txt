@@ -1,0 +1,33 @@
+
+		Function: main
+		Body:
+			Var: arr[10], i;
+			For (i = 0, i < 10, i + 1) Do
+				arr[i] = randInt();
+			EndFor.
+			sort(arr);
+			printArr(arr);
+		EndBody.
+
+		Function: sort
+		Parameter: arr
+		Body:
+			Var: n;
+			n = randInt();
+			If (n == 0) Then
+				quickSort(arr);
+			ElseIf (n == 1) Then
+				mergeSort(arr);
+			ElseIf (n == 2) Then
+				bubbleSort(arr);
+			ElseIf (n == 3) Then
+				heapSort(arr);
+			ElseIf (n == 4) Then
+				insertionSort(arr);
+			ElseIf (n == 5) Then
+				selectionSort(arr);
+			Else 
+				mixSort(arr);
+			EndIf.
+		EndBody.
+		

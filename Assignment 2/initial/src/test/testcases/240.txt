@@ -1,0 +1,10 @@
+
+        Function: dwq 
+        Parameter: n, wqe[10]
+        Body: 
+            For (ewqewq = 5, i < 4, i+222 ) Do
+                Var: dsa = 7;
+                a = 4314+7;
+            EndFor.
+        EndBody.
+        

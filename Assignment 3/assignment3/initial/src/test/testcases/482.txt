@@ -1,0 +1,13 @@
+
+        Var: x, a[10], b[5];
+        Function: test
+        Body:
+            a[0] = a[5] * b[2];
+        EndBody.
+        Function: main
+        Parameter: x
+        Body:
+            test();
+            a[2][3] = 10;
+        EndBody.
+        

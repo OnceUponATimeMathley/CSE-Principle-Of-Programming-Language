@@ -1,0 +1,11 @@
+
+        Var: t = 0;
+        Function: mk
+        Parameter: x
+        Body:
+            Var: a={{True, False} , {True**False**, **True**False}};
+            For (a=2, b<5, a+2) Do
+                mmt = a + 3;
+            EndFor.
+        EndBody.
+        

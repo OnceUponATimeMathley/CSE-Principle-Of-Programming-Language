@@ -1,0 +1,1 @@
+Program([VarDecl(Id(t)),FuncDecl(Id(t__Ddas)[],([][Assign(Id(x),BinaryOp(+,BinaryOp(+,BinaryOp(-.,BinaryOp(-.,IntLiteral(2),IntLiteral(3)),IntLiteral(4)),IntLiteral(123)),BinaryOp(%,BinaryOp(*,BinaryOp(||,BinaryOp(==,CallExpr(Id(f),[]),IntLiteral(23)),IntLiteral(123)),IntLiteral(24)),BinaryOp(==,IntLiteral(2),IntLiteral(22)))))]))])

@@ -1,0 +1,7 @@
+
+Function: main
+    Body:
+        For (a = 1, a < 10, 1) Do
+            foo();
+        EndFor.
+    EndBody.

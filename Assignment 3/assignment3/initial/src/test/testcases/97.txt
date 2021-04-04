@@ -1,0 +1,7 @@
+
+		Function: main
+		Body:
+			Var: a;
+			a = (((((((a > 1) > 2) >. 3) >=. 4) && True) =/= True) == True) != False + 9*True*10*1.5*False;
+		EndBody.
+		

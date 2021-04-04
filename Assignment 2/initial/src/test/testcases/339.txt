@@ -1,0 +1,9 @@
+
+        Var: s;
+        Function: reverse
+        Parameter: str
+        Body:
+            For(i = 0, i < len(str) \ 2, s) Do
+                str[i] = str[len(str) - i - 1];
+            EndFor.
+        EndBody.
